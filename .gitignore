@@ -1,3 +1,14 @@
+*.class
+*.pyc
+*.bak
+*.tmp
+*tmplate*
+*[#~]
+*.[#~]
+node_modules/
+tmp/
+
+
 # Compiled class file
 *.class
 
