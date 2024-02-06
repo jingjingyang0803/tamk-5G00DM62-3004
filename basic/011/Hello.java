@@ -16,11 +16,15 @@ class Hello {
 	 * ************************
 	 *
 	 * @param args Command line arguments. Not used.
+	 * @param content The content to be displayed in the box.
+ 	 * @param symbol  The symbol used to create the box.
+  	 * @return No return value (void method).
 	 */
 	public static void main(String[] args) {
 		String name = "Jingjing Yang";
 		String content = "Hello, I am " + name;
-		box(content, '*');
+		char symbol = '*';
+		box(content, symbol);
 	}
 
 	public static void box(String content, char symbol) {
