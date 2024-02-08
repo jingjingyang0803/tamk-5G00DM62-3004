@@ -26,13 +26,24 @@ class BMICalculator {
 	public static void main(String[] args) {
 		int weight = 56; // in kg
 		double height = 1.6; // in m
-		double bmi = weight / Math.pow(height, 2);
+		double bmi = calculateBMI(weight, height);
 
 		DecimalFormat df = new DecimalFormat("0.0");
 
 		System.out.println("Weight (kg): " + weight);
 		System.out.println("Height (m) : " + df.format(height));
 		System.out.println("BMI        : " + df.format(bmi));
+	}
+
+	/**
+	 * This method calculates the Body Mass Index (BMI) using weight and height.
+	 *
+	 * @param weight The weight in kilograms.
+	 * @param height The height in meters.
+	 * @return The calculated BMI.
+	 */
+	public static double calculateBMI(int weight, double height) {
+		return weight / Math.pow(height, 2);
 	}
 }
 
