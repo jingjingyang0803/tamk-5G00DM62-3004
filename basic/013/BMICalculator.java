@@ -2,7 +2,7 @@ import java.text.DecimalFormat;
 
 /**
  * @author 		Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.01208 (last modified)
+ * @version     2024.0208 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 class BMICalculator {
