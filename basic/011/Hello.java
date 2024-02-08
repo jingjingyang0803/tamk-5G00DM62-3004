@@ -25,6 +25,13 @@ class Hello {
 		box(content, symbol);
 	}
 
+	/**
+	 * This method prints a string content within a box made of a specified symbol.
+	 *
+	 * @param content The string to be printed inside the box.
+	 * @param symbol  The character used to create the box around the content.
+	 * @return No return value (void method).
+	 */
 	public static void box(String content, char symbol) {
 		int length = content.length();
 		char ch = symbol;
@@ -33,6 +40,13 @@ class Hello {
 		row(length, ch);
 	}
 
+	/**
+	 * This method prints a row of symbols, used as part of the box in the box method.
+	 *
+	 * @param length The length of the content around which the box is to be created.
+	 * @param symbol The character used to create the row in the box.
+	 * @return No return value (void method).
+	 */
 	public static void row(int length, char symbol) {
 		for (int i = 0; i < length + 4; i++) {
 			System.out.print(symbol);
