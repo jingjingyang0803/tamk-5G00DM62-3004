@@ -1,5 +1,5 @@
 /**
- * @author 		Jingjing Yang <jingjing.yang@tuni.fi>
+ * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
  * @version     2024.0208 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
