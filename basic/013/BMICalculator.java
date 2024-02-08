@@ -1,9 +1,9 @@
 import java.text.DecimalFormat;
 
 /**
- * @author      Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0208 (last modified)
- * @since       17.0 (miminimum Java version)
+ * @author 		Jingjing Yang <jingjing.yang@tuni.fi>
+ * @version     2024.01208 (last modified)
+ * @since   	17.0 (miminimum Java version)
  */
 class BMICalculator {
 
@@ -40,10 +40,11 @@ class BMICalculator {
 	 *
 	 * @param weight The weight in kilograms.
 	 * @param height The height in meters.
-	 * @return The calculated BMI.
+	 * @return bmi The calculated BMI.
 	 */
 	public static double calculateBMI(int weight, double height) {
-		return weight / Math.pow(height, 2);
+		double bmi = weight / Math.pow(height, 2);
+		return bmi;
 	}
 }
 
