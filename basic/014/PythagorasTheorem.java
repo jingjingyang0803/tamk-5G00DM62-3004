@@ -1,3 +1,5 @@
+import java.text.DecimalFormat;
+
 /**
  * @author      Jingjing Yang <jingjing.yang@tuni.fi>
  * @version     2024.0208 (last modified)
@@ -23,11 +25,13 @@ class PythagorasTheorem {
 	 * @return No return value (void method).
 	 */
 	public static void main(String[] args) {
-		double a = 3;
-		double b = 4;
+		double a = 3.2;
+		double b = 4.3;
 		double c = calculateHypotenuse(a, b);
 
-		System.out.println("Hypotenuse (c) = " + c);
+		DecimalFormat df = new DecimalFormat("0.0");
+
+		System.out.println("Hypotenuse (c) = " + df.format(c));
 	}
 
 	/**
