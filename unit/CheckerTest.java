@@ -38,7 +38,7 @@ public class CheckerTest {
 
     @Test
     public void testIsPalindrome() {
-        assertTrue(checker.isPalindrome("radar")); // Test if "radar" is correctly identified as a palindrome
+        assertTrue(checker.isPalindrome("r a_d_a r")); // Test if "r a_d_a r" is correctly identified as a palindrome
         assertFalse(checker.isPalindrome("hello")); // Test if "hello" is correctly identified as not a palindrome
         assertTrue(checker.isPalindrome("madam")); // Test if "madam" is correctly identified as a palindrome
     }
