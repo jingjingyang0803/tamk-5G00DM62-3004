@@ -16,7 +16,8 @@ import org.junit.runners.Suite.SuiteClasses;
 @RunWith(Suite.class)
 
 @SuiteClasses({
-		CalculatorTest.class
+		CalculatorTest.class,
+		CheckerTest.class
 })
 
 public class TestSuiteAll {
