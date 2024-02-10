@@ -1,4 +1,9 @@
 /**
+ * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
+ * @version     2024.0208 (last modified)
+ * @since   	17.0 (miminimum Java version)
+ */
+/**
  * The Calculator class provides basic mathematical operations
  * such as addition, subtraction, multiplication, division, and squaring.
  */
