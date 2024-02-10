@@ -1,6 +1,6 @@
 /**
  * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0210 (last modified)
+ * @version     2024.0211 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 /**
@@ -31,7 +31,7 @@ class Converter {
 	 * @return the distance in kilometers
 	 */
 	public double milesToKilometers(double miles) {
-		return miles * 1.60934;
+		return miles * 1.609344;
 	}
 
 	/**
@@ -40,7 +40,7 @@ class Converter {
 	 * @return the distance in miles
 	 */
 	public double kilometersToMiles(double kilometers) {
-		return kilometers / 1.60934;
+		return kilometers / 1.609344;
 	}
 
 	/**
@@ -49,6 +49,6 @@ class Converter {
 	 * @return the weight in kilograms
 	 */
 	public double poundsToKilograms(double pounds) {
-		return pounds / 2.20462;
+		return pounds / 2.2046262185;
 	}
 }
