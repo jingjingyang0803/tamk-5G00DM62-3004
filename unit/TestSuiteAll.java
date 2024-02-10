@@ -17,7 +17,9 @@ import org.junit.runners.Suite.SuiteClasses;
 
 @SuiteClasses({
 		CalculatorTest.class,
-		CheckerTest.class
+		CheckerTest.class,
+		ConverterTest.class,
+		SorterTest.class
 })
 
 public class TestSuiteAll {
