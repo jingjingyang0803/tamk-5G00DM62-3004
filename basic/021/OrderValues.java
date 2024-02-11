@@ -30,9 +30,7 @@ class OrderValues {
 	 * @return No return value (void method).
 	 */
 	public static void main(String[] args) {
-		int a = 15;
-		int b = 4;
-		int c = 7;
+		int a = 15, b = 4, c = 7;
 		printOrder(a, b, c);
 	}
 
@@ -43,11 +41,13 @@ class OrderValues {
 	 * @param b The second number
 	 * @param c The third number
 	 */
-	public static void printOrder(int a, int b, int c){
+	public static void printOrder (int a, int b, int c){
 		int biggest, middle, smallest;
 		if (a > b) {
+
 			if (a > c) {
 				biggest = a;
+
 				if (b > c) {
 					middle = b;
 					smallest = c;
@@ -61,6 +61,7 @@ class OrderValues {
 				smallest = b;
 			}
 		} else {
+
 			if (b > c) {
 				biggest = b;
 				if (a > c) {
@@ -76,17 +77,19 @@ class OrderValues {
 				smallest = a;
 			}
 		}
+
 		printResults(biggest, middle, smallest);
 	}
 
 	/**
-	 * Print the results of the order of three numbers.
+	 * Prints the results of the order of three numbers.
+	 *
 	 * @param biggest The biggest number
 	 * @param middle The middle number
 	 * @param smallest The smallest number
 	 * @return No return value (void method).
 	 */
-	public static void printResults(int biggest, int middle, int smallest){
+	public static void printResults (int biggest, int middle, int smallest){
 		System.out.println(biggest + " is the biggest");
 		System.out.println(middle + " is in the middle");
 		System.out.println(smallest + " is the smallest");
