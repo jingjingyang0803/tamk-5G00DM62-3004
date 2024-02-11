@@ -2,12 +2,14 @@ import java.text.DecimalFormat;
 
 /**
  * @author 		Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0208 (last modified)
+ * @version     2024.0211 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 class BMICalculator {
 
 	/**
+	 * Calculates BMI using weight and height and prints to screen.
+	 *
 	 * Exercise: 1.3
 	 *    1.3 Calculate bmi
 	 *
@@ -36,7 +38,7 @@ class BMICalculator {
 	}
 
 	/**
-	 * This method calculates the Body Mass Index (BMI) using weight and height.
+	 * Calculates the Body Mass Index (BMI) using weight and height.
 	 *
 	 * @param weight The weight in kilograms.
 	 * @param height The height in meters.
