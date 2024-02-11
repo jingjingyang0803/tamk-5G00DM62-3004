@@ -9,7 +9,7 @@ import java.util.Arrays;
  * The Sorter class provides methods for sorting arrays in ascending or descending order.
  * It also includes methods for finding the maximum and minimum values, and calculating the sum of all values in an array.
  */
-public class Sorter {
+class Sorter {
 
 	/**
 	 * Sorts an array in ascending order

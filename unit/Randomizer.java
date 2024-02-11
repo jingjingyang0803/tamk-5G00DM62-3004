@@ -10,7 +10,7 @@ import java.util.ArrayList;
 /**
  * The Randomizer class provides methods to generate random numbers, lists, arrays, pick random elements from a list, and generate a random boolean value.
  */
-public class Randomizer {
+class Randomizer {
 	private Random random;
 
 	/**
