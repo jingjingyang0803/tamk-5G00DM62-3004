@@ -2,12 +2,14 @@ import java.text.DecimalFormat;
 
 /**
  * @author 		Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0208 (last modified)
+ * @version     2024.0211 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 class TaxCalculator {
 
 	/**
+	 * Calculates and displays earnings and taxes for an individual.
+	 *
 	 * Exercise: 1.7
 	 *     1.7 Calculate taxes
 	 *
@@ -30,7 +32,6 @@ class TaxCalculator {
 	 *             Net income    : NNNNN.NN (after taxes reduced)
 	 *
 	 * @param  args  Command line arguments. Not used.
-	 * @return No return value (void method).
 	 */
 	public static void main(String[] args) {
 		int totalEarnings = 134000;
@@ -38,22 +39,26 @@ class TaxCalculator {
 		double personalTaxRate = 0.273;
 		double stockTaxRate = 0.21;
 
-		calculateAndPrintEarningsAndTaxes(totalEarnings, stockEarnings, personalTaxRate, stockTaxRate);
+		calculateAndPrintEarningsAndTaxes(totalEarnings, stockEarnings,
+				personalTaxRate, stockTaxRate);
 	}
 
 	/**
-	 * This method calculates and prints the total earnings, work earnings, stock earnings, taxes, and net income.
-	 * It takes total earnings, stock earnings, and respective tax rates as inputs.
+	 * Calculates and prints total/work/stock earnings, taxes, and net income.
+	 *
+	 * It takes total earnings, stock earnings, and respective tax rates as
+	 * inputs.
 	 *
 	 * @param totalEarnings    The total earnings.
 	 * @param stockEarnings    The earnings from stocks.
 	 * @param personalTaxRate  The tax rate for personal income.
 	 * @param stockTaxRate     The tax rate for stock earnings.
-	 * @return No return value (void method).
 	 */
-	public static void calculateAndPrintEarningsAndTaxes(int totalEarnings, int stockEarnings, double personalTaxRate, double stockTaxRate) {
+	public static void calculateAndPrintEarningsAndTaxes(int totalEarnings,
+														 int stockEarnings, double personalTaxRate, double stockTaxRate) {
 		int workEarnings = totalEarnings - stockEarnings;
-		double taxes = workEarnings * personalTaxRate + stockEarnings * stockTaxRate;
+		double taxes = workEarnings * personalTaxRate +
+				stockEarnings * stockTaxRate;
 		double netIncome = totalEarnings - taxes;
 
 		DecimalFormat df = new DecimalFormat("0.00");

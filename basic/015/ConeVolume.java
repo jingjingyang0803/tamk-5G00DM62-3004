@@ -2,12 +2,14 @@ import java.text.DecimalFormat;
 
 /**
  * @author 		Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0208 (last modified)
+ * @version     2024.0211 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 class ConeVolume {
 
 	/**
+	 * Calculates and prints the volume of a cone.
+	 *
 	 * Exercise: 1.5
 	 *     1.5 Calculate cone
 	 *
@@ -22,10 +24,10 @@ class ConeVolume {
 	 *                                        '--'
 	 *
 	 *         [1] https://en.wikipedia.org/wiki/Cone
-	 *         [2] https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/lang/Math.html
+	 *         [2] https://docs.oracle.com/en/java/javase/15/docs
+	 *         /api/java.base/java/lang/Math.html
 	 *
 	 * @param  args  Command line arguments. Not used.
-	 * @return No return value (void method).
 	 */
 	public static void main(String[] args) {
 		double r = 3; // Radius
@@ -38,7 +40,7 @@ class ConeVolume {
 	}
 
 	/**
-	 * This method calculates the volume of a cone.
+	 * Calculates the volume of a cone.
 	 *
 	 * @param r The radius of the cone's base.
 	 * @param h The height of the cone.

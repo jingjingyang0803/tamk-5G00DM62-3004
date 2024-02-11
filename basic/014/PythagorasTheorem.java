@@ -2,12 +2,14 @@ import java.text.DecimalFormat;
 
 /**
  * @author 		Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0208 (last modified)
+ * @version     2024.0211 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 class PythagorasTheorem {
 
 	/**
+	 * Calculates and prints pythagoras.
+	 *
 	 * Exercise: 1.4
 	 *     1.4 Calculate pythagoras
 	 *
@@ -19,10 +21,10 @@ class PythagorasTheorem {
 	 *              c   = a  +  b
 	 *
 	 *         [1] https://en.wikipedia.org/wiki/Pythagorean_theorem
-	 *         [2] https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/lang/Math.html
+	 *         [2] https://docs.oracle.com/en/java/javase/15/docs/api
+	 *         /java.base/java/lang/Math.html
 	 *
 	 * @param  args  Command line arguments. Not used.
-	 * @return No return value (void method).
 	 */
 	public static void main(String[] args) {
 		double a = 3.2;
@@ -35,7 +37,7 @@ class PythagorasTheorem {
 	}
 
 	/**
-	 * This method calculates the hypotenuse of a right-angled triangle.
+	 * Calculates the hypotenuse of a right-angled triangle.
 	 *
 	 * @param a The length of side 'a' of the triangle.
 	 * @param b The length of side 'b' of the triangle.

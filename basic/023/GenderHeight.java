@@ -1,11 +1,13 @@
 /**
  * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0208 (last modified)
+ * @version     2024.0211 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 class GenderHeight {
 
 	/**
+	 * Prints the height category of a person based on their gender and height.
+	 *
 	 * Exercise: 2.3
 	 *     2.3 If gender
 	 *
@@ -33,7 +35,6 @@ class GenderHeight {
 	 *               + over 182, display "tall female"
 	 *
 	 * @param args Command line arguments. Not used.
-	 * @return No return value (void method).
 	 */
 	public static void main(String[] args) {
 		int gender = 0;
@@ -42,10 +43,10 @@ class GenderHeight {
 	}
 
 	/**
-	 * The method printGenderHeight is used to print the height category of a person based on their gender and height.
+	 * Prints the height category of a person based on their gender and height.
+	 *
 	 * @param gender The gender of a person
 	 * @param height The height of a person
-	 * @return No return value (void method).
 	 */
 	public static void printGenderHeight(int gender, int height) {
 		final int MALE = 0;

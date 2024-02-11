@@ -1,11 +1,13 @@
 /**
  * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0208 (last modified)
+ * @version     2024.0211 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 class DayName {
 
 	/**
+	 * Prints the name of a day based on its numerical representation.
+	 *
 	 * Exercise: 2.2
 	 *     2.2 If day
 	 *
@@ -31,7 +33,6 @@ class DayName {
 	 *             "Unknown date (0)"
 	 *
 	 * @param args Command line arguments. Not used.
-	 * @return No return value (void method).
 	 */
 	public static void main(String[] args) {
 		int today = 0;
@@ -39,9 +40,9 @@ class DayName {
 	}
 
 	/**
-	 * The method printDayName is used to print the name of a day based on its numerical representation.
+	 * Prints the name of a day based on its numerical representation.
+	 *
 	 * @param today The numerical representation of a day
-	 * @return No return value (void method).
 	 */
 	public static void printDayName(int today) {
 		final int MONDAY = 1;

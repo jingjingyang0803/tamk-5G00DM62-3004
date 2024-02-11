@@ -2,12 +2,14 @@ import java.text.DecimalFormat;
 
 /**
  * @author 		Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0208 (last modified)
+ * @version     2024.0211 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 class GradeCalculator {
 
 	/**
+	 * Calculates and prints the weighted average grade.
+	 *
 	 * Exercise: 1.6
 	 *     1.6 Calculate grade
 	 *
@@ -28,20 +30,23 @@ class GradeCalculator {
 	 *         [1] https://en.wikipedia.org/wiki/Weighted_arithmetic_mean
 	 *
 	 * @param  args  Command line arguments. Not used.
-	 * @return No return value (void method).
 	 */
 	public static void main(String[] args) {
 		double examEcts = 2, examGrade = 2;
 		double designEcts = 1, designGrade = 4;
 		double implEcts = 3, implGrade = 4;
 
-		double finalGrade = calculateWeightedAverageGrade(examEcts, examGrade, designEcts, designGrade, implEcts, implGrade);
+		double finalGrade = calculateWeightedAverageGrade(examEcts, examGrade,
+				designEcts, designGrade, implEcts, implGrade);
 
 		System.out.println("Final Grade = " + finalGrade);
 	}
 
 	/**
-	 * This method calculates the weighted average grade based on individual grades and their corresponding ECTS credits.
+	 * Calculates the weighted average grade.
+	 *
+	 * The calculation is based on individual grades and their corresponding
+	 * ECTS credits.
 	 *
 	 * @param examEcts     The ECTS credits for the exam.
 	 * @param examGrade    The grade obtained in the exam.
@@ -51,8 +56,11 @@ class GradeCalculator {
 	 * @param implGrade    The grade obtained in the implementation assessment.
 	 * @return averageGrade The weighted average final grade.
 	 */
-	public static double calculateWeightedAverageGrade(double examEcts, double examGrade, double designEcts, double designGrade, double implEcts, double implGrade) {
-		double averageGrade = (examEcts * examGrade +  designEcts * designGrade+ implEcts * implGrade) / (examEcts + designEcts + implEcts);
+	public static double calculateWeightedAverageGrade(double examEcts,
+													   double examGrade, double designEcts, double designGrade,
+													   double implEcts, double implGrade) {
+		double averageGrade = (examEcts * examGrade +  designEcts * designGrade
+				+ implEcts * implGrade) / (examEcts + designEcts + implEcts);
 		return averageGrade;
 	}
 }

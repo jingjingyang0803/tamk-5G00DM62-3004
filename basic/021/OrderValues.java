@@ -1,11 +1,13 @@
 /**
  * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0208 (last modified)
+ * @version     2024.0211 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 class OrderValues {
 
 	/**
+	 * Determines and prints the order of three numbers.
+	 *
 	 * Exercise: 2.1
 	 *     2.1 If choices
 	 *
@@ -35,11 +37,11 @@ class OrderValues {
 	}
 
 	/**
-	 * The method printOrder is used to determine the order of three numbers.
+	 * Determines the order of three numbers.
+	 *
 	 * @param a The first number
 	 * @param b The second number
 	 * @param c The third number
-	 * @return No return value (void method).
 	 */
 	public static void printOrder(int a, int b, int c){
 		int biggest, middle, smallest;
@@ -78,7 +80,7 @@ class OrderValues {
 	}
 
 	/**
-	 * The method printResults is used to print the results of the order of three numbers.
+	 * Print the results of the order of three numbers.
 	 * @param biggest The biggest number
 	 * @param middle The middle number
 	 * @param smallest The smallest number
