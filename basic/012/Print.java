@@ -33,8 +33,7 @@ class Print {
 	}
 
 	/**
-	 * Prints personal details including the current date,
-	 * full name, and height.
+	 * Prints current date, full name, and height.
 	 *
 	 * @param date      The current date.
 	 * @param firstName The first name.

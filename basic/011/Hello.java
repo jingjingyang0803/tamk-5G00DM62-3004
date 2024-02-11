@@ -42,8 +42,7 @@ class Hello {
 	}
 
 	/**
-	 * Prints a row of symbols, used as part of the box
-	 * in the box method.
+	 * Prints a row of symbols, used as part of the box in the box method.
 	 *
 	 * @param length The length of the content around which
 	 *               the box is to be created.
