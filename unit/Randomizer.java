@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 /**
- * The Randomizer class provides methods to generate random numbers, lists, arrays, and pick random elements from a list.
+ * The Randomizer class provides methods to generate random numbers, lists, arrays, pick random elements from a list, and generate a random boolean value.
  */
 public class Randomizer {
 	private Random random;
