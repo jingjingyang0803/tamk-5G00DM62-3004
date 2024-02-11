@@ -1,16 +1,19 @@
 /**
- * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0211 (last modified)
- * @since   	17.0 (miminimum Java version)
+ * @author Jingjing Yang <jingjing.yang@tuni.fi>
+ * @version 2024.0211 (last modified)
+ * @since 17.0 (miminimum Java version)
  */
 import java.util.Random;
 import java.util.List;
 import java.util.ArrayList;
 
-/**
- * The Randomizer class provides methods to generate random numbers, lists, arrays, pick random elements from a list, and generate a random boolean value.
- */
 class Randomizer {
+
+	/**
+	 * The Randomizer class provides methods to generate random numbers, lists,
+	 * arrays, pick random elements from a list, and generate a random boolean
+	 * value.
+	 */
 	private Random random;
 
 	/**
@@ -22,6 +25,7 @@ class Randomizer {
 
 	/**
 	 * Generates a random integer within the specified range.
+	 *
 	 * @param min The lower bound of the range.
 	 * @param max The upper bound of the range.
 	 * @return A random integer within the specified range.
@@ -32,9 +36,10 @@ class Randomizer {
 
 	/**
 	 * Generates a list of random integers within a specified range.
+	 *
 	 * @param listSize The size of the list to generate.
-	 * @param min The lower bound of the range.
-	 * @param max The upper bound of the range.
+	 * @param min      The lower bound of the range.
+	 * @param max      The upper bound of the range.
 	 * @return A list of random integers within the specified range.
 	 */
 	public List<Integer> getRandomNumberList(int listSize, int min, int max) {
@@ -47,9 +52,10 @@ class Randomizer {
 
 	/**
 	 * Generates an array of random integers within a specified range.
+	 *
 	 * @param arraySize The size of the array to generate.
-	 * @param min The lower bound of the range.
-	 * @param max The upper bound of the range.
+	 * @param min       The lower bound of the range.
+	 * @param max       The upper bound of the range.
 	 * @return An array of random integers within the specified range.
 	 */
 	public int[] getRandomNumberArray(int arraySize, int min, int max) {
@@ -62,8 +68,9 @@ class Randomizer {
 
 	/**
 	 * Picks a random element from a list.
+	 *
 	 * @param list The list from which to pick an element.
-	 * @param <T> The type of elements in the list.
+	 * @param <T>  The type of elements in the list.
 	 * @return A random element from the list.
 	 */
 	public <T> T getRandomElementFromList(List<T> list) {
@@ -76,6 +83,7 @@ class Randomizer {
 
 	/**
 	 * Generates a random boolean value.
+	 *
 	 * @return A random boolean value.
 	 */
 	public boolean getRandomBoolean() {

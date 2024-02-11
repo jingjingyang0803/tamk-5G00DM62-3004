@@ -5,14 +5,18 @@
  */
 import java.util.Arrays;
 
-/**
- * The Sorter class provides methods for sorting arrays in ascending or descending order.
- * It also includes methods for finding the maximum and minimum values, and calculating the sum of all values in an array.
- */
 class Sorter {
 
 	/**
-	 * Sorts an array in ascending order
+	 * The Sorter class provides methods for sorting arrays in ascending or
+	 * descending order.
+	 * It also includes methods for finding the maximum and minimum values,
+	 * and calculating the sum of all values in an array.
+	 */
+
+	/**
+	 * Sorts an array in ascending order.
+	 *
 	 * @param arr The array to be sorted
 	 * @return The sorted array
 	 */
@@ -22,7 +26,8 @@ class Sorter {
 	}
 
 	/**
-	 * Sorts an array in descending order
+	 * Sorts an array in descending order.
+	 *
 	 * @param arr The array to be sorted
 	 * @return The sorted array
 	 */
@@ -37,7 +42,8 @@ class Sorter {
 	}
 
 	/**
-	 * Finds the maximum value in an array
+	 * Finds the maximum value in an array.
+	 *
 	 * @param arr The array to be searched
 	 * @return The maximum value
 	 */
@@ -50,7 +56,8 @@ class Sorter {
 	}
 
 	/**
-	 * Finds the minimum value in an array
+	 * Finds the minimum value in an array.
+	 *
 	 * @param arr The array to be searched
 	 * @return The minimum value
 	 */
@@ -63,7 +70,8 @@ class Sorter {
 	}
 
 	/**
-	 * Calculates the sum of all values in an array
+	 * Calculates the sum of all values in an array.
+	 *
 	 * @param arr The array to be summed
 	 * @return The sum of all values
 	 */

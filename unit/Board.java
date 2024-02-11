@@ -1,12 +1,13 @@
 /**
- * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0211 (last modified)
- * @since   	17.0 (miminimum Java version)
- */
-/**
- * This class represents a Board for a Tic-Tac-Toe game.
+ * @author Jingjing Yang <jingjing.yang@tuni.fi>
+ * @version 2024.0212 (last modified)
+ * @since 17.0 (miminimum Java version)
  */
 class Board {
+
+	/**
+	 * Represents a Board for a Tic-Tac-Toe game.
+	 */
 	private String[][] board; // 2D array to represent the board
 	private String winner; // Variable to store the winner of the game
 
@@ -26,6 +27,7 @@ class Board {
 
 	/**
 	 * Checks if a given move is valid.
+	 *
 	 * @param x the x-coordinate of the move
 	 * @param y the y-coordinate of the move
 	 * @return true if the move is valid, false otherwise
@@ -41,12 +43,14 @@ class Board {
 
 	/**
 	 * Makes a move on the board.
-	 * @param x the x-coordinate of the move
-	 * @param y the y-coordinate of the move
+	 *
+	 * @param x      the x-coordinate of the move
+	 * @param y      the y-coordinate of the move
 	 * @param player the player making the move
 	 */
 	public void makeMove(int x, int y, String player) {
-		// If the move is valid, place the player's symbol at the chosen coordinates
+		// If the move is valid, place the player's symbol at the chosen
+		// coordinates
 		if (isValidMove(x, y)) {
 			this.board[x][y] = player;
 		}
@@ -54,37 +58,54 @@ class Board {
 
 	/**
 	 * Checks if the game is over.
+	 *
 	 * @return true if the game is over, false otherwise
 	 */
 	public boolean isGameOver() {
 		// Check rows for a win
 		for (int i = 0; i < 3; i++) {
-			if (this.board[i][0].equals(this.board[i][1]) && this.board[i][1].equals(this.board[i][2]) && !this.board[i][0].equals("-")) {
-				this.winner = this.board[i][0]; // Set the winner to the player with three in a row
+			if (this.board[i][0].equals(this.board[i][1]) &&
+					this.board[i][1].equals(this.board[i][2]) &&
+					!this.board[i][0].equals("-")) {
+				// Set the winner to the player with three in a row
+				this.winner = this.board[i][0];
 				return true;
 			}
 		}
 		// Check columns for a win
 		for (int i = 0; i < 3; i++) {
-			if (this.board[0][i].equals(this.board[1][i]) && this.board[1][i].equals(this.board[2][i]) && !this.board[0][i].equals("-")) {
-				this.winner = this.board[0][i]; // Set the winner to the player with three in a column
+			if (this.board[0][i].equals(this.board[1][i]) &&
+					this.board[1][i].equals(this.board[2][i]) &&
+					!this.board[0][i].equals("-")) {
+				// Set the winner to the player with three in a column
+				this.winner = this.board[0][i];
 				return true;
 			}
 		}
 		// Check diagonals for a win
-		if (this.board[0][0].equals(this.board[1][1]) && this.board[1][1].equals(this.board[2][2]) && !this.board[0][0].equals("-")) {
-			this.winner = this.board[0][0]; // Set the winner to the player with three in a diagonal
+		if (this.board[0][0].equals(this.board[1][1]) &&
+				this.board[1][1].equals(this.board[2][2]) &&
+				!this.board[0][0].equals("-")) {
+			// Set the winner to the player with three in a diagonal
+			this.winner = this.board[0][0];
 			return true;
 		}
-		if (this.board[0][2].equals(this.board[1][1]) && this.board[1][1].equals(this.board[2][0]) && !this.board[0][2].equals("-")) {
-			this.winner = this.board[0][2]; // Set the winner to the player with three in a diagonal
+		if (this.board[0][2].equals(this.board[1][1]) &&
+				this.board[1][1].equals(this.board[2][0]) &&
+				!this.board[0][2].equals("-")) {
+			// Set the winner to the player with three in a diagonal
+			this.winner = this.board[0][2];
 			return true;
 		}
-		return false; // The game is not over if no player has three in a row, column, or diagonal
+
+		// The game is not over if no player has three in a row, column,
+		// or diagonal
+		return false;
 	}
 
 	/**
 	 * Gets the winner of the game.
+	 *
 	 * @return the winner of the game if the game is over, null otherwise.
 	 */
 	public String getWinner() {
@@ -101,9 +122,10 @@ class Board {
 	 * @return A 2D array of Strings representing the game board.
 	 * Each element of the array contains a String value that indicates
 	 * the state of each cell in the grid. Typically, these values are
-	 * "-" for empty cells, and other symbols like "X" or "O" for occupied cells.
+	 * "-" for empty cells, and other symbols like "X" or "O" for
+	 * occupied cells.
 	 */
-	public String[][] getBoard(){
+	public String[][] getBoard() {
 		return board;
 	}
 }
