@@ -7,15 +7,15 @@ class Hello {
 
 	/**
 	 * Displays the user's name in a box created by *.
-	 *
+	 * <p>
 	 * Exercise: 1.1
-	 * 		1.1 Program hello
-	 *
-	 * 		Write a program to display your name in a box
-	 *
-	 * 			************************
-	 * 			* Hello, I am John Doe *
-	 * 			************************
+	 * 1.1 Program hello
+	 * <p>
+	 * Write a program to display your name in a box
+	 * <p>
+	 * ************************
+	 * * Hello, I am John Doe *
+	 * ************************
 	 *
 	 * @param args Command line arguments. Not used.
 	 */

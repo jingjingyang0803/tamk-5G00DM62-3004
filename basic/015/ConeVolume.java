@@ -1,33 +1,26 @@
 import java.text.DecimalFormat;
 
 /**
- * @author 		Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0211 (last modified)
- * @since   	17.0 (miminimum Java version)
+ * @author Jingjing Yang <jingjing.yang@tuni.fi>
+ * @version 2024.0211 (last modified)
+ * @since 17.0 (miminimum Java version)
  */
 class ConeVolume {
 
 	/**
 	 * Calculates and prints the volume of a cone.
-	 *
+	 * <p>
 	 * Exercise: 1.5
-	 *     1.5 Calculate cone
+	 * 1.5 Calculate cone
+	 * <p>
+	 * Calculate triangular cone's[1] volume from (r)adious and
+	 * (h)eight. Display result according to (r)adius and (h)eight.
+	 * <p>
+	 * [1] https://en.wikipedia.org/wiki/Cone
+	 * [2] https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java
+	 * /lang/Math.html
 	 *
-	 *         Calculate triangular cone's[1] volume from (r)adious and
-	 *         (h)eight. Display result according to (r)adius and (h)eight.
-	 *
-	 *
-	 *                  1         2            /\
-	 *         volume = - * PI * r * h        /  \
-	 *                  3                    /.--.\
-	 *                                       (    )
-	 *                                        '--'
-	 *
-	 *         [1] https://en.wikipedia.org/wiki/Cone
-	 *         [2] https://docs.oracle.com/en/java/javase/15/docs
-	 *         /api/java.base/java/lang/Math.html
-	 *
-	 * @param  args  Command line arguments. Not used.
+	 * @param args Command line arguments. Not used.
 	 */
 	public static void main(String[] args) {
 		double r = 3; // Radius
@@ -47,7 +40,7 @@ class ConeVolume {
 	 * @return The volume of the cone.
 	 */
 	public static double calculateConeVolume(double r, double h) {
-		return (1.0/3) * Math.PI * Math.pow(r, 2) * h;
+		return (1.0 / 3) * Math.PI * Math.pow(r, 2) * h;
 	}
 }
 

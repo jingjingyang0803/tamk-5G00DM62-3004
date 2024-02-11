@@ -1,30 +1,30 @@
 /**
- * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0212 (last modified)
- * @since   	17.0 (miminimum Java version)
+ * @author Jingjing Yang <jingjing.yang@tuni.fi>
+ * @version 2024.0212 (last modified)
+ * @since 17.0 (miminimum Java version)
  */
 class InchToCm {
 
-    /**
-     * Converts array of 3 values from inches to centimeters.
-	 *
+	/**
+	 * Converts array of 3 values from inches to centimeters.
+	 * <p>
 	 * Exercise: 5.3
-     *     5.3 Array convert
+	 * 5.3 Array convert
+	 * <p>
+	 * Write program to convert array of 3 values (inches) to another
+	 * array of ISO centimeters.
+	 * <p>
+	 * double inches[] = {1, 2, 3};
+	 * double centimeters[3];    // Calculate conversions here
+	 * <p>
+	 * Loop over both arrays and display the following:
+	 * <p>
+	 * 1 in = 2.54 cm
+	 * 2 in = 5.08 cm
+	 * 3 in = 7.62 cm
 	 *
-	 *         Write program to convert array of 3 values (inches) to another
-	 *         array of ISO centimeters.
-	 *
-	 *             double inches[] = {1, 2, 3};
-	 *             double centimeters[3];    // Calculate conversions here
-	 *
-	 *         Loop over both arrays and display the following:
-	 *
-	 *             1 in = 2.54 cm
-	 *             2 in = 5.08 cm
-	 *             3 in = 7.62 cm
-     *
-     * @param args Command line arguments. Not used.
-     */
+	 * @param args Command line arguments. Not used.
+	 */
 	public static void main(String[] args) {
 		double[] inches = {1, 2, 3};
 		printInchesToCm(inches);

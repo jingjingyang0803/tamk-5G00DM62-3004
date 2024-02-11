@@ -1,26 +1,26 @@
 /**
- * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0212 (last modified)
- * @since   	17.0 (miminimum Java version)
+ * @author Jingjing Yang <jingjing.yang@tuni.fi>
+ * @version 2024.0212 (last modified)
+ * @since 17.0 (miminimum Java version)
  */
 class TemperatureStats {
 
-    /**
-     * Stores 10 temperature values (in double) to an array.
+	/**
+	 * Stores 10 temperature values (in double) to an array.
+	 * <p>
+	 * Exercise: 5.2
+	 * 5.2 Array temperatures
+	 * <p>
+	 * Write a program to store 10 temperature values (in double) to an
+	 * array. Loop over the values and present following report:
+	 * <p>
+	 * Temperatures:
+	 * Min: NN.N
+	 * Max: NN.N
+	 * Avg: NN.N
 	 *
-	 * 	 Exercise: 5.2
-     *     5.2 Array temperatures
-	 *
-	 *         Write a program to store 10 temperature values (in double) to an
-	 *         array. Loop over the values and present following report:
-	 *
-	 *             Temperatures:
-	 *             Min: NN.N
-	 *             Max: NN.N
-	 *             Avg: NN.N
-     *
-     * @param args Command line arguments. Not used.
-     */
+	 * @param args Command line arguments. Not used.
+	 */
 	public static void main(String[] args) {
 		double[] temperatures = {15.5, 17.2, 18.0, 16.5, 19.0,
 				20.1, 21.5, 22.5, 23.0, 24.5};

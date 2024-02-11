@@ -1,41 +1,41 @@
 /**
- * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0212 (last modified)
- * @since   	17.0 (miminimum Java version)
+ * @author Jingjing Yang <jingjing.yang@tuni.fi>
+ * @version 2024.0212 (last modified)
+ * @since 17.0 (miminimum Java version)
  */
 class LotterySimulation {
 
-    /**
-     * Implements lottery.
-	 *
+	/**
+	 * Implements lottery.
+	 * <p>
 	 * Exercise: 4.6
-     *     4.6 Function lottery
+	 * 4.6 Function lottery
+	 * <p>
+	 * NOTE: use function dice() from previous exercise.
+	 * <p>
+	 * Write a simple[1] Finnish lottery[2] where the numbers and
+	 * spare numbers are displayed to the screen:
+	 * <p>
+	 * Lottery: N, N, NN, N, N ...
+	 * Spare: N, N, NN
+	 * <p>
+	 * [1] In simple in a sense that you may get same numbers from
+	 * random number generator. Ignore possible duplicate numbers for
+	 * this exercise. To implement lottery correctly, there would be
+	 * need to store the values to an array for checking against
+	 * duplicates.
+	 * <p>
+	 * [2] https://www.veikkaus.fi/fi/lotto
 	 *
-	 *         NOTE: use function dice() from previous exercise.
-	 *
-	 *         Write a simple[1] Finnish lottery[2] where the numbers and
-	 *         spare numbers are displayed to the screen:
-	 *
-	 *             Lottery: N, N, NN, N, N ...
-	 *             Spare: N, N, NN
-	 *
-	 *         [1] In simple in a sense that you may get same numbers from
-	 *         random number generator. Ignore possible duplicate numbers for
-	 *         this exercise. To implement lottery correctly, there would be
-	 *         need to store the values to an array for checking against
-	 *         duplicates.
-	 *
-	 *         [2] https://www.veikkaus.fi/fi/lotto
-     *
-     * @param args Command line arguments. Not used.
-     */
+	 * @param args Command line arguments. Not used.
+	 */
 	public static void main(String[] args) {
 		lottery();
 	}
 
 	/**
 	 * Simulates a simple lottery system.
-	 *
+	 * <p>
 	 * The numbers and spare numbers are displayed to the screen.
 	 * It uses the dice method to generate lottery numbers.
 	 */

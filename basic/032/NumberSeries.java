@@ -1,29 +1,29 @@
 /**
- * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0212 (last modified)
- * @since   	17.0 (miminimum Java version)
+ * @author Jingjing Yang <jingjing.yang@tuni.fi>
+ * @version 2024.0212 (last modified)
+ * @since 17.0 (miminimum Java version)
  */
 class NumberSeries {
 
-    /**
-     * Displays 10-based column numbers to the screen.
+	/**
+	 * Displays 10-based column numbers to the screen.
+	 * <p>
+	 * Exercise: 3.2
+	 * 3.2 Loop series
+	 * <p>
+	 * Write a program to display 10-based column numbers to the
+	 * screen. The *length* of the display can be configured.
+	 * Substitute last number with space at the end.
+	 * <p>
+	 * int length = 25;
+	 * ... code ...
+	 * <p>
+	 * Output:
+	 * <p>
+	 * 123456789 123456789 12345
 	 *
-	 * 	 Exercise: 3.2
-     *         3.2 Loop series
-	 *
-	 *         Write a program to display 10-based column numbers to the
-	 *         screen. The *length* of the display can be configured.
-	 *         Substitute last number with space at the end.
-	 *
-	 *             int length = 25;
-	 *             ... code ...
-	 *
-	 *         Output:
-	 *
-	 *             123456789 123456789 12345
-     *
-     * @param args Command line arguments. Not used.
-     */
+	 * @param args Command line arguments. Not used.
+	 */
 	public static void main(String[] args) {
 		printSeries(25);
 	}

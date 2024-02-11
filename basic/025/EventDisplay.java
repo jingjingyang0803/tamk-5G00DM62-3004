@@ -1,32 +1,32 @@
 /**
- * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0212 (last modified)
- * @since   	17.0 (miminimum Java version)
+ * @author Jingjing Yang <jingjing.yang@tuni.fi>
+ * @version 2024.0212 (last modified)
+ * @since 17.0 (miminimum Java version)
  */
 class EventDisplay {
 
 	/**
 	 * Prints an event based on the day, hour, and minute.
-	 *
+	 * <p>
 	 * Exercise: 2.5
-	 *     2.5 If calendar
-	 *
-	 *         Write a program which would display events based on date and
-	 *         time. In the beginning of program, define three variables:
-	 *
-	 *             - weekday (signifying values from Mon...Fri)
-	 *             - hour
-	 *             - minute
-	 *
-	 *        Write event notification to the screen if the values match any of:
-	 *
-	 *             * Mon 19:00-20:30 volleyball
-	 *             * Wed 20:30-21:30 badminton
-	 *             * Sat 10:00-11:00 gym
-	 *
-	 *         In case no date and time match, display:
-	 *
-	 *             No events for WEEKDAY HH:MM
+	 * 2.5 If calendar
+	 * <p>
+	 * Write a program which would display events based on date and
+	 * time. In the beginning of program, define three variables:
+	 * <p>
+	 * - weekday (signifying values from Mon...Fri)
+	 * - hour
+	 * - minute
+	 * <p>
+	 * Write event notification to the screen if the values match any of:
+	 * <p>
+	 * * Mon 19:00-20:30 volleyball
+	 * * Wed 20:30-21:30 badminton
+	 * * Sat 10:00-11:00 gym
+	 * <p>
+	 * In case no date and time match, display:
+	 * <p>
+	 * No events for WEEKDAY HH:MM
 	 *
 	 * @param args Command line arguments. Not used.
 	 */
@@ -41,8 +41,8 @@ class EventDisplay {
 	 * Prints any events based on the day, hour, and minute.
 	 *
 	 * @param weekday The day of the week
-	 * @param hour The hour of the day
-	 * @param minute The minute of the hour
+	 * @param hour    The hour of the day
+	 * @param minute  The minute of the hour
 	 */
 	public static void printEventDisplay(int weekday, int hour, int minute) {
 		final int MONDAY = 1;

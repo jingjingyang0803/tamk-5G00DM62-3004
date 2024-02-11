@@ -9,19 +9,19 @@ class Print {
 
 	/**
 	 * Displays the user's first name. last name, and height (cm) to the screen.
-	 *
+	 * <p>
 	 * Exercise: 1.2
-	 *    1.2 Program print
+	 * 1.2 Program print
+	 * <p>
+	 * Write a program to display: date, your first name. last name,
+	 * and height (in cm) to the screen. Store each information to a
+	 * separate variable before displaying.
+	 * <p>
+	 * The date is YYYY-MM-DD
+	 * Hello, I'm John Doe
+	 * I'm 185 cm tall
 	 *
-	 *         Write a program to display: date, your first name. last name,
-	 *         and height (in cm) to the screen. Store each information to a
-	 *         separate variable before displaying.
-	 *
-	 *             The date is YYYY-MM-DD
-	 *             Hello, I'm John Doe
-	 *             I'm 185 cm tall
-	 *
-	 * @param  args  Command line arguments. Not used.
+	 * @param args Command line arguments. Not used.
 	 */
 	public static void main(String[] args) {
 		LocalDate date = LocalDate.now();

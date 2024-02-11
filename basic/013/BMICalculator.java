@@ -1,28 +1,28 @@
 import java.text.DecimalFormat;
 
 /**
- * @author 		Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0212 (last modified)
- * @since   	17.0 (miminimum Java version)
+ * @author Jingjing Yang <jingjing.yang@tuni.fi>
+ * @version 2024.0212 (last modified)
+ * @since 17.0 (miminimum Java version)
  */
 class BMICalculator {
 
 	/**
 	 * Calculates BMI using weight and height and prints to screen.
-	 *
+	 * <p>
 	 * Exercise: 1.3
-	 *    1.3 Calculate bmi
+	 * 1.3 Calculate bmi
+	 * <p>
+	 * Calculate body mass index[1] from WEIGHT and HEIGHT. Display
+	 * results:
+	 * <p>
+	 * Weight (kg): NN
+	 * height (m) : N.N
+	 * BMI        : N.N
+	 * <p>
+	 * [1] https://en.wikipedia.org/wiki/Body_mass_index
 	 *
-	 *         Calculate body mass index[1] from WEIGHT and HEIGHT. Display
-	 *         results:
-	 *
-	 *             Weight (kg): NN
-	 *             height (m) : N.N
-	 *             BMI        : N.N
-	 *
-	 *         [1] https://en.wikipedia.org/wiki/Body_mass_index
-	 *
-	 * @param  args  Command line arguments. Not used.
+	 * @param args Command line arguments. Not used.
 	 */
 	public static void main(String[] args) {
 		int weight = 56; // in kg

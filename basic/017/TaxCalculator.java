@@ -1,37 +1,37 @@
 import java.text.DecimalFormat;
 
 /**
- * @author 		Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0211 (last modified)
- * @since   	17.0 (miminimum Java version)
+ * @author Jingjing Yang <jingjing.yang@tuni.fi>
+ * @version 2024.0211 (last modified)
+ * @since 17.0 (miminimum Java version)
  */
 class TaxCalculator {
 
 	/**
 	 * Calculates and displays earnings and taxes for an individual.
-	 *
+	 * <p>
 	 * Exercise: 1.7
-	 *     1.7 Calculate taxes
+	 * 1.7 Calculate taxes
+	 * <p>
+	 * Write a program to calculate annual taxes from following
+	 * initial values:
+	 * <p>
+	 * - Total earnings in year: 134 000
+	 * of which the stock exchange earnings are 23 000.
+	 * - The nominal tax rate for person is 27,3%.
+	 * - The government tax rate for extra income, like stocks, is 21 %.
+	 * <p>
+	 * The program should calculate taxes and display the result. The
+	 * results NNNNN.NN may contain any number of decimals.
+	 * <p>
+	 * All income    : 134000
+	 * Work earnings : 111000
+	 * Stock earnings: 23000
+	 * <p>
+	 * Taxes total   : NNNNN.NN
+	 * Net income    : NNNNN.NN (after taxes reduced)
 	 *
-	 *         Write a program to calculate annual taxes from following
-	 *         initial values:
-	 *
-	 *         - Total earnings in year: 134 000
-	 *           of which the stock exchange earnings are 23 000.
-	 *         - The nominal tax rate for person is 27,3%.
-	 *         - The government tax rate for extra income, like stocks, is 21 %.
-	 *
-	 *         The program should calculate taxes and display the result. The
-	 *         results NNNNN.NN may contain any number of decimals.
-	 *
-	 *             All income    : 134000
-	 *             Work earnings : 111000
-	 *             Stock earnings: 23000
-	 *
-	 *             Taxes total   : NNNNN.NN
-	 *             Net income    : NNNNN.NN (after taxes reduced)
-	 *
-	 * @param  args  Command line arguments. Not used.
+	 * @param args Command line arguments. Not used.
 	 */
 	public static void main(String[] args) {
 		int totalEarnings = 134000;
@@ -45,14 +45,14 @@ class TaxCalculator {
 
 	/**
 	 * Calculates and prints total/work/stock earnings, taxes, and net income.
-	 *
+	 * <p>
 	 * It takes total earnings, stock earnings, and respective tax rates as
 	 * inputs.
 	 *
-	 * @param totalEarnings    The total earnings.
-	 * @param stockEarnings    The earnings from stocks.
-	 * @param personalTaxRate  The tax rate for personal income.
-	 * @param stockTaxRate     The tax rate for stock earnings.
+	 * @param totalEarnings   The total earnings.
+	 * @param stockEarnings   The earnings from stocks.
+	 * @param personalTaxRate The tax rate for personal income.
+	 * @param stockTaxRate    The tax rate for stock earnings.
 	 */
 	public static void calculateAndPrintEarningsAndTaxes(int totalEarnings,
 														 int stockEarnings, double personalTaxRate, double stockTaxRate) {

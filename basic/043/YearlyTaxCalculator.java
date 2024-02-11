@@ -1,25 +1,25 @@
 import java.text.DecimalFormat;
 
 /**
- * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0212 (last modified)
- * @since   	17.0 (miminimum Java version)
+ * @author Jingjing Yang <jingjing.yang@tuni.fi>
+ * @version 2024.0212 (last modified)
+ * @since 17.0 (miminimum Java version)
  */
 class YearlyTaxCalculator {
 
-    /**
-     * Calculates taxes.
-	 *
+	/**
+	 * Calculates taxes.
+	 * <p>
 	 * Exercise: 4.3
-     *     4.3 Function tax
+	 * 4.3 Function tax
+	 * <p>
+	 * Write a function to calculate taxes.
+	 * <p>
+	 * // double yearlyTaxes(double, double)
+	 * double taxes = taxes(yearlySalary, percentage);
 	 *
-	 *         Write a function to calculate taxes.
-	 *
-	 *             // double yearlyTaxes(double, double)
-	 *             double taxes = taxes(yearlySalary, percentage);
-     *
-     * @param args Command line arguments. Not used.
-     */
+	 * @param args Command line arguments. Not used.
+	 */
 	public static void main(String[] args) {
 		double yearlySalary = 58977;
 		double percentage = 21.7;
@@ -32,7 +32,7 @@ class YearlyTaxCalculator {
 	 * Calculates the taxes based on yearly salary and tax percentage.
 	 *
 	 * @param yearlySalary The yearly salary of the person.
-	 * @param percentage The tax percentage.
+	 * @param percentage   The tax percentage.
 	 * @return The calculated tax.
 	 */
 	public static double taxes(double yearlySalary, double percentage) {

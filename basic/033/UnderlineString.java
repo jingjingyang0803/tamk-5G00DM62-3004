@@ -1,33 +1,33 @@
 /**
- * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0212 (last modified)
- * @since   	17.0 (miminimum Java version)
+ * @author Jingjing Yang <jingjing.yang@tuni.fi>
+ * @version 2024.0212 (last modified)
+ * @since 17.0 (miminimum Java version)
  */
 class UnderlineString {
 
-    /**
-     * Draws an underline below a string.
-	 *
+	/**
+	 * Draws an underline below a string.
+	 * <p>
 	 * Exercise: 3.3
-     *      3.3 Loop underline
+	 * 3.3 Loop underline
+	 * <p>
+	 * Write a program to draw an underline below a string. The program
+	 * must for any string. See cstring[1] library how to get string
+	 * length.
+	 * <p>
+	 * string str = "This is a test";
+	 * ... code ...
+	 * <p>
+	 * Output:
+	 * <p>
+	 * This is a test
+	 * --------------
+	 * <p>
+	 * [1] https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java
+	 * /lang/String.html
 	 *
-	 *         Write a program to draw an underline below a string. The program
-	 *         must for any string. See cstring[1] library how to get string
-	 *         length.
-	 *
-	 *             string str = "This is a test";
-	 *             ... code ...
-	 *
-	 *         Output:
-	 *
-	 *                 This is a test
-	 *                 --------------
-	 *
-	 *         [1] https://docs.oracle.com/en/java/javase/15/docs/api/java.base
-	 *         /java/lang/String.html
-     *
-     * @param args Command line arguments. Not used.
-     */
+	 * @param args Command line arguments. Not used.
+	 */
 	public static void main(String[] args) {
 		printUnderlined("This is a test");
 	}

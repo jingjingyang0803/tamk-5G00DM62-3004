@@ -1,36 +1,36 @@
 /**
- * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0211 (last modified)
- * @since   	17.0 (miminimum Java version)
+ * @author Jingjing Yang <jingjing.yang@tuni.fi>
+ * @version 2024.0211 (last modified)
+ * @since 17.0 (miminimum Java version)
  */
 class DayName {
 
 	/**
 	 * Prints the name of a day based on its numerical representation.
-	 *
+	 * <p>
 	 * Exercise: 2.2
-	 *     2.2 If day
-	 *
-	 *         Based on DAY value, display its name. Suppose that the week
-	 *         starts from Monday. Utilize constant values.
-	 *
-	 *             const int MONDAY = 1;
-	 *             ...
-	 *
-	 *             // This value can be chnaged
-	 *             int today = MONDAY;
-	 *             ... code ...
-	 *
-	 *         The program outputs string "Monday" based on variable "today".
-	 *         if the value is changed, the output is adjusted accordingly.
-	 *         If the value is not a known date, display "Unknown date (N)",
-	 *         where N is the value. E.g if date is set to:
-	 *
-	 *             today = 0;
-	 *
-	 *         Output is:
-	 *
-	 *             "Unknown date (0)"
+	 * 2.2 If day
+	 * <p>
+	 * Based on DAY value, display its name. Suppose that the week
+	 * starts from Monday. Utilize constant values.
+	 * <p>
+	 * const int MONDAY = 1;
+	 * ...
+	 * <p>
+	 * // This value can be chnaged
+	 * int today = MONDAY;
+	 * ... code ...
+	 * <p>
+	 * The program outputs string "Monday" based on variable "today".
+	 * if the value is changed, the output is adjusted accordingly.
+	 * If the value is not a known date, display "Unknown date (N)",
+	 * where N is the value. E.g if date is set to:
+	 * <p>
+	 * today = 0;
+	 * <p>
+	 * Output is:
+	 * <p>
+	 * "Unknown date (0)"
 	 *
 	 * @param args Command line arguments. Not used.
 	 */

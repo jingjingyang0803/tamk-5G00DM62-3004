@@ -1,25 +1,25 @@
 /**
- * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0208 (last modified)
- * @since   	17.0 (miminimum Java version)
+ * @author Jingjing Yang <jingjing.yang@tuni.fi>
+ * @version 2024.0208 (last modified)
+ * @since 17.0 (miminimum Java version)
  */
 class CircleArea {
 
-    /**
-     * Calculates areas of an Circle.
-	 *
+	/**
+	 * Calculates areas of an Circle.
+	 * <p>
 	 * Exercise: 4.4
-     *     4.4 Function area
+	 * 4.4 Function area
+	 * <p>
+	 * Write a functions to calculate areas of an Circle.
+	 * <p>
+	 * double areaCircle(double radius)
+	 * <p>
+	 * [1] https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java
+	 * /lang/Math.html
 	 *
-	 *         Write a functions to calculate areas of an Circle.
-	 *
-	 *             double areaCircle(double radius)
-	 *
-	 *         [1] https://docs.oracle.com/en/java/javase/15/docs/api/java.base
-	 *         /java/lang/Math.html
-     *
-     * @param args Command line arguments. Not used.
-     */
+	 * @param args Command line arguments. Not used.
+	 */
 	public static void main(String[] args) {
 		double radius = 5;
 		double area = areaCircle(radius);

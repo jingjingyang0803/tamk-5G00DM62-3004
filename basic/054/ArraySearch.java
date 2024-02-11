@@ -1,29 +1,29 @@
 /**
- * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0212 (last modified)
- * @since   	17.0 (miminimum Java version)
+ * @author Jingjing Yang <jingjing.yang@tuni.fi>
+ * @version 2024.0212 (last modified)
+ * @since 17.0 (miminimum Java version)
  */
 class ArraySearch {
 
-    /**
-     * Searchs values from array in range MIN..MAX (both inclusive).
+	/**
+	 * Searchs values from array in range MIN..MAX (both inclusive).
+	 * <p>
+	 * Exercise: 5.4
+	 * 5.4 Array search
+	 * <p>
+	 * Write a program to search values from array in range MIN..MAX
+	 * (both inclusive). An example:
+	 * <p>
+	 * int array[] = {-3, -2, -1, 0, 1, 2, 3};
+	 * int min = -1;
+	 * int max = 2;
+	 * <p>
+	 * Program displays:
+	 * <p>
+	 * -1, 0, 1, 2
 	 *
-	 * 	 Exercise: 5.4
-     *     5.4 Array search
-	 *
-	 *         Write a program to search values from array in range MIN..MAX
-	 *         (both inclusive). An example:
-	 *
-	 *             int array[] = {-3, -2, -1, 0, 1, 2, 3};
-	 *             int min = -1;
-	 *             int max = 2;
-	 *
-	 *         Program displays:
-	 *
-	 *             -1, 0, 1, 2
-     *
-     * @param args Command line arguments. Not used.
-     */
+	 * @param args Command line arguments. Not used.
+	 */
 	public static void main(String[] args) {
 		int[] array = {-3, -2, -1, 0, 1, 2, 3};
 		int min = -1;
@@ -34,16 +34,16 @@ class ArraySearch {
 
 	/**
 	 * Prints the elements of the given array, separated by commas.
-	 *
+	 * <p>
 	 * If the array is empty, a specific message is displayed.
 	 *
 	 * @param array The array of integers to be printed.
 	 */
 	public static void printValuesInArray(int[] array) {
-		for (int i = 0; i < array.length; i++ ) {
+		for (int i = 0; i < array.length; i++) {
 			if (i == array.length - 1) {
 				System.out.println(array[i]);
-			}else {
+			} else {
 				System.out.print(array[i] + ", ");
 			}
 		}
@@ -54,7 +54,7 @@ class ArraySearch {
 
 	/**
 	 * Returns a new array with elements in range from the original array.
-	 *
+	 * <p>
 	 * Creates and returns a new array containing the elements of the original
 	 * array that fall within the specified range (inclusive).
 	 *

@@ -1,38 +1,38 @@
 /**
- * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0211 (last modified)
- * @since   	17.0 (miminimum Java version)
+ * @author Jingjing Yang <jingjing.yang@tuni.fi>
+ * @version 2024.0211 (last modified)
+ * @since 17.0 (miminimum Java version)
  */
 class GenderHeight {
 
 	/**
 	 * Prints the height category of a person based on their gender and height.
-	 *
+	 * <p>
 	 * Exercise: 2.3
-	 *     2.3 If gender
-	 *
-	 *         Write a program that solves following problem using logical
-	 *         operators. Set MALE and FEMALE variables as constant integers
-	 *         in the beginning. An example setup:
-	 *
-	 *             const int MALE = 0
-	 *             const int FEMALE = 1;
-	 *
-	 *             // These values can be changed
-	 *             int gender = MALE:
-	 *             int height = 175;
-	 *             ... code ...
-	 *
-	 *         Use following decision table:
-	 *
-	 *             - if MALE
-	 *               + below 180, display "Short male"
-	 *               + between 180..187, display "Normal male"
-	 *               + over 187, display "tall male"
-	 *             - if FEMALE
-	 *               + below 175, display "Short female"
-	 *               + between 175..182, display "Normal female"
-	 *               + over 182, display "tall female"
+	 * 2.3 If gender
+	 * <p>
+	 * Write a program that solves following problem using logical
+	 * operators. Set MALE and FEMALE variables as constant integers
+	 * in the beginning. An example setup:
+	 * <p>
+	 * const int MALE = 0
+	 * const int FEMALE = 1;
+	 * <p>
+	 * // These values can be changed
+	 * int gender = MALE:
+	 * int height = 175;
+	 * ... code ...
+	 * <p>
+	 * Use following decision table:
+	 * <p>
+	 * - if MALE
+	 * + below 180, display "Short male"
+	 * + between 180..187, display "Normal male"
+	 * + over 187, display "tall male"
+	 * - if FEMALE
+	 * + below 175, display "Short female"
+	 * + between 175..182, display "Normal female"
+	 * + over 182, display "tall female"
 	 *
 	 * @param args Command line arguments. Not used.
 	 */

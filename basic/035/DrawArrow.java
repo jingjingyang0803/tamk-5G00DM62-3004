@@ -1,44 +1,44 @@
 /**
- * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0212 (last modified)
- * @since   	17.0 (miminimum Java version)
+ * @author Jingjing Yang <jingjing.yang@tuni.fi>
+ * @version 2024.0212 (last modified)
+ * @since 17.0 (miminimum Java version)
  */
 class DrawArrow {
 
-    /**
-     * Displays a pattern of an arrow.
-	 *
+	/**
+	 * Displays a pattern of an arrow.
+	 * <p>
 	 * Exercise: 3.5
-     *         3.5 Loop shape arrow
+	 * 3.5 Loop shape arrow
+	 * <p>
+	 * Write a program to display following pattern. Solve the problem
+	 * using two *NESTED* loops (use 2 inside loops as needed).
+	 * The SIZE and the displayed CHARACTER must be configurable.
+	 * <p>
+	 * int size = 5;
+	 * char character[] = "*";
+	 * ... code ...
+	 * <p>
+	 * Output:
+	 * <p>
+	 * * * * *
+	 * * * * *
+	 * * * * *
+	 * * * * *
+	 * * * * *
 	 *
-	 *         Write a program to display following pattern. Solve the problem
-	 *         using two *NESTED* loops (use 2 inside loops as needed).
-	 *         The SIZE and the displayed CHARACTER must be configurable.
-	 *
-	 *             int size = 5;
-	 *             char character[] = "*";
-	 *             ... code ...
-	 *
-	 *         Output:
-	 *
-	 *             * * * *
-	 *               * * * *
-	 *                 * * * *
-	 *               * * * *
-	 *             * * * *
-     *
-     * @param args Command line arguments. Not used.
-     */
+	 * @param args Command line arguments. Not used.
+	 */
 	public static void main(String[] args) {
 		int size = 5;
-	    char character = '*';
+		char character = '*';
 		drawArrow(size, character);
 	}
 
 	/**
 	 * Draws an arrow.
 	 *
-	 * @param size the size of the arrow
+	 * @param size      the size of the arrow
 	 * @param character the character used to draw the arrow
 	 */
 	public static void drawArrow(int size, char character) {

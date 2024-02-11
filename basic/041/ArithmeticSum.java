@@ -1,23 +1,23 @@
 /**
- * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0212 (last modified)
- * @since   	17.0 (miminimum Java version)
+ * @author Jingjing Yang <jingjing.yang@tuni.fi>
+ * @version 2024.0212 (last modified)
+ * @since 17.0 (miminimum Java version)
  */
 class ArithmeticSum {
 
-    /**
-     * Calculates arithmetic sum.
-	 *
+	/**
+	 * Calculates arithmetic sum.
+	 * <p>
 	 * Exercise: 4.1
-     *     4.1 Function sum
+	 * 4.1 Function sum
+	 * <p>
+	 * Write a function to calculate arithmetic sum.
+	 * <p>
+	 * // int sum(int)
+	 * int total = sum(10)        // 1 + 2 + 3 ... N
 	 *
-	 *         Write a function to calculate arithmetic sum.
-	 *
-	 *             // int sum(int)
-	 *             int total = sum(10)        // 1 + 2 + 3 ... N
-     *
-     * @param args Command line arguments. Not used.
-     */
+	 * @param args Command line arguments. Not used.
+	 */
 	public static void main(String[] args) {
 		int n = 10;
 		int total = sum(n);
