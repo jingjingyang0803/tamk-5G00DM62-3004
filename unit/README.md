@@ -7,7 +7,7 @@ This project is designed to showcase the fundamentals of unit testing using Java
 1. Calculator: This class handles basic arithmetic operations such as addition, subtraction, multiplication, division and square.
 2. Checker: This class handles checking if a number is even, odd, positive, prime, or a palindrome.
 3. Converter: This class handles converting units such as temperature, weight and distance.
-4. Sorter: This class handles sorting arrays in ascending or descending order. It also includes methods for finding the maximum and minimum values, and calculating the sum of all values in an array.
+4. ArraySorter: This class handles sorting arrays in ascending or descending order. It also includes methods for finding the maximum and minimum values, and calculating the sum of all values in an array.
 5. Randomizer: This class handles generating random numbers within a given range. It can also generate a list of random integers within a specified range, and an array of random integers within a specified range. It can also pick a random element from a given list and generate a random boolean value.
 
 ## Instructions

@@ -5,13 +5,12 @@
  */
 import java.util.Arrays;
 
-class Sorter {
+class ArraySorter {
 
 	/**
-	 * The Sorter class provides methods for sorting arrays in ascending or
-	 * descending order.
-	 * It also includes methods for finding the maximum and minimum values,
-	 * and calculating the sum of all values in an array.
+	 * Provides methods for sorting arrays in ascending or
+	 * descending order. It also includes methods for finding the maximum and
+	 * minimum values, and calculating the sum of all values in an array.
 	 */
 
 	/**

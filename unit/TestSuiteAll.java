@@ -19,8 +19,9 @@ import org.junit.runners.Suite.SuiteClasses;
 		CalculatorTest.class,
 		CheckerTest.class,
 		ConverterTest.class,
-		SorterTest.class,
-		RandomizerTest.class
+		ArraySorterTest.class,
+		RandomizerTest.class,
+		BoardTest.class
 })
 
 public class TestSuiteAll {

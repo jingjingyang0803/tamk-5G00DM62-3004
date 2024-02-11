@@ -8,12 +8,12 @@ import org.junit.runner.manipulation.Sorter;
 import org.junit.runners.JUnit4;
 
 @RunWith(JUnit4.class)
-public class SorterTest {
-	private Sorter sorter;
+public class ArraySorterTest {
+	private ArraySorter sorter;
 
 	@Before
 	public void setUp() {
-		this.sorter = new Sorter();
+		this.sorter = new ArraySorter();
 	}
 
 	// Test cases for sortAscending method
