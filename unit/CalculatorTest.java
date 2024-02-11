@@ -1,7 +1,8 @@
 /*
 javac -cp ".:junit-4.13.2.jar:hamcrest-core-1.3.jar" CalculatorTest.java
 
-java -cp ".:junit-4.13.2.jar:hamcrest-core-1.3.jar" org.junit.runner.JUnitCore CalculatorTest
+java -cp ".:junit-4.13.2.jar:hamcrest-core-1.3.jar" org.junit.runner.JUnitCore \
+	CalculatorTest
 
 If you are on Windows, replace : with ;.
 */
@@ -44,7 +45,8 @@ public class CalculatorTest {
 
 	@Test
 	public void testSubtract1() {
-		// Test if the subtraction function handles the case where the second number is larger
+		// Test if the subtraction function handles the case
+		// where the second number is larger
 		assertEquals(-1, calculator.subtract(3, 4));
 	}
 
@@ -62,7 +64,8 @@ public class CalculatorTest {
 
 	@Test
 	public void testMultiply1() {
-		// Test if the multiplication function multiplies positive numbers correctly
+		// Test if the multiplication function multiplies positive numbers
+		// correctly
 		assertEquals(12, calculator.multiply(3, 4));
 	}
 
@@ -92,7 +95,8 @@ public class CalculatorTest {
 
 	@Test(expected = IllegalArgumentException.class)
 	public void testDivide3() {
-		// Test if the division function throws an exception when dividing by zero
+		// Test if the division function throws an exception
+		// when dividing by zero
 		calculator.divide(1, 0);
 	}
 

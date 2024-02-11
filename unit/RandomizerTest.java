@@ -22,61 +22,70 @@ public class RandomizerTest {
 	@Test
 	public void testGetRandomNumberInRange1() {
 		int number = randomizer.getRandomNumberInRange(1, 10);
-		assertTrue(number >= 1 && number <= 10); // The number should be within the range 1-10
+		// The number should be within the range 1-10
+		assertTrue(number >= 1 && number <= 10);
 	}
 
 	@Test
 	public void testGetRandomNumberInRange2() {
 		int number = randomizer.getRandomNumberInRange(-5, 5);
-		assertTrue(number >= -5 && number <= 5); // The number should be within the range -5 to 5
+		// The number should be within the range -5 to 5
+		assertTrue(number >= -5 && number <= 5);
 	}
 
 	@Test
 	public void testGetRandomNumberInRange3() {
 		int number = randomizer.getRandomNumberInRange(0, 0);
-		assertEquals(0, number); // If min and max are the same, the number should be equal to them
+		// If min and max are the same, the number should be equal to them
+		assertEquals(0, number);
 	}
 
 	// Testing getRandomNumberList method
 	@Test
 	public void testGetRandomNumberList1() {
 		List<Integer> list = randomizer.getRandomNumberList(5, 1, 10);
-		assertEquals(5, list.size()); // The list should have 5 elements
+		// The list should have 5 elements
+		assertEquals(5, list.size());
 	}
 
 	@Test
 	public void testGetRandomNumberList2() {
 		List<Integer> list = randomizer.getRandomNumberList(5, 1, 10);
 		for (int number : list) {
-			assertTrue(number >= 1 && number <= 10); // Each number should be within the range 1-10
+			// Each number should be within the range 1-10
+			assertTrue(number >= 1 && number <= 10);
 		}
 	}
 
 	@Test
 	public void testGetRandomNumberList3() {
 		List<Integer> list = randomizer.getRandomNumberList(0, 1, 10);
-		assertTrue(list.isEmpty()); // If listSize is 0, the list should be empty
+		// If listSize is 0, the list should be empty
+		assertTrue(list.isEmpty());
 	}
 
 	// Testing getRandomNumberArray method
 	@Test
 	public void testGetRandomNumberArray1() {
 		int[] array = randomizer.getRandomNumberArray(5, 1, 10);
-		assertEquals(5, array.length); // The array should have 5 elements
+		// The array should have 5 elements
+		assertEquals(5, array.length);
 	}
 
 	@Test
 	public void testGetRandomNumberArray2() {
 		int[] array = randomizer.getRandomNumberArray(5, 1, 10);
 		for (int number : array) {
-			assertTrue(number >= 1 && number <= 10); // Each number should be within the range 1-10
+			// Each number should be within the range 1-10
+			assertTrue(number >= 1 && number <= 10);
 		}
 	}
 
 	@Test
 	public void testGetRandomNumberArray3() {
 		int[] array = randomizer.getRandomNumberArray(0, 1, 10);
-		assertEquals(0, array.length); // If arraySize is 0, the array should be empty
+		// If arraySize is 0, the array should be empty
+		assertEquals(0, array.length);
 	}
 
 	// Testing getRandomElementFromList method
@@ -84,7 +93,8 @@ public class RandomizerTest {
 	public void testGetRandomElementFromList1() {
 		List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
 		int element = randomizer.getRandomElementFromList(list);
-		assertTrue(element >= 1 && element <= 5); // The element should be in the list
+		// The element should be in the list
+		assertTrue(element >= 1 && element <= 5);
 	}
 
 	@Test
@@ -97,14 +107,16 @@ public class RandomizerTest {
 	@Test(expected = IllegalArgumentException.class)
 	public void testGetRandomElementFromList3() {
 		List<Integer> list = Arrays.asList();
-		randomizer.getRandomElementFromList(list); // Should throw IllegalArgumentException for empty list
+		// Should throw IllegalArgumentException for empty list
+		randomizer.getRandomElementFromList(list);
 	}
 
 	// Testing getRandomBoolean method
 	@Test
 	public void testGetRandomBoolean1() {
 		boolean result = randomizer.getRandomBoolean();
-		assertTrue(result == true || result == false); // Should return either true or false
+		// Should return either true or false
+		assertTrue(result == true || result == false);
 	}
 
 	@Test
@@ -121,7 +133,8 @@ public class RandomizerTest {
 			if (hasTrue && hasFalse) break;
 		}
 
-		assertTrue(hasTrue && hasFalse); // Assert that both true and false were returned
+		// Assert that both true and false were returned
+		assertTrue(hasTrue && hasFalse);
 	}
 
 	@Test
@@ -136,6 +149,7 @@ public class RandomizerTest {
 			else falseCount++;
 		}
 
-		assertTrue(Math.abs(trueCount - falseCount) < 1000); // Assert that the counts are roughly equal
+		// Assert that the counts are roughly equal
+		assertTrue(Math.abs(trueCount - falseCount) < 1000);
 	}
 }

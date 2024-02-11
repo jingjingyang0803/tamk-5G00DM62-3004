@@ -12,81 +12,97 @@ public class CheckerTest {
 
     @Before
     public void setUp() {
-        this.checker = new Checker(); // Initialize a new Checker object before each test
+        // Initialize a new Checker object before each test
+        this.checker = new Checker();
     }
 
     @Test
     public void testIsEven1() {
-        assertTrue(checker.isEven(2)); // Test if 2 is correctly identified as an even number
+        // Test if 2 is correctly identified as an even number
+        assertTrue(checker.isEven(2));
     }
 
     @Test
     public void testIsEven2() {
-        assertFalse(checker.isEven(3)); // Test if 3 is correctly identified as not an even number
+        // Test if 3 is correctly identified as not an even number
+        assertFalse(checker.isEven(3));
     }
 
     @Test
     public void testIsEven3() {
-        assertTrue(checker.isEven(0)); // Test if 0 is correctly identified as an even number
+        // Test if 0 is correctly identified as an even number
+        assertTrue(checker.isEven(0));
     }
 
     @Test
     public void testIsOdd1() {
-        assertFalse(checker.isOdd(2)); // Test if 2 is correctly identified as not an odd number
+        // Test if 2 is correctly identified as not an odd number
+        assertFalse(checker.isOdd(2));
     }
 
     @Test
     public void testIsOdd2() {
-        assertTrue(checker.isOdd(3)); // Test if 3 is correctly identified as an odd number
+        // Test if 3 is correctly identified as an odd number
+        assertTrue(checker.isOdd(3));
     }
 
     @Test
     public void testIsOdd3() {
-        assertFalse(checker.isOdd(0)); // Test if 0 is correctly identified as not an odd number
+        // Test if 0 is correctly identified as not an odd number
+        assertFalse(checker.isOdd(0));
     }
 
     @Test
     public void testIsPrime1() {
-        assertTrue(checker.isPrime(2)); // Test if 2 is correctly identified as a prime number
+        // Test if 2 is correctly identified as a prime number
+        assertTrue(checker.isPrime(2));
     }
 
     @Test
     public void testIsPrime2() {
-        assertFalse(checker.isPrime(4)); // Test if 4 is correctly identified as not a prime number
+        // Test if 4 is correctly identified as not a prime number
+        assertFalse(checker.isPrime(4));
     }
 
     @Test
     public void testIsPrime3() {
-        assertTrue(checker.isPrime(13)); // Test if 13 is correctly identified as a prime number
+        // Test if 13 is correctly identified as a prime number
+        assertTrue(checker.isPrime(13));
     }
 
     @Test
     public void testIsPalindrome1() {
-        assertTrue(checker.isPalindrome("r a_d_a r")); // Test if "r a_d_a r" is correctly identified as a palindrome
+        // Test if "r a_d_a r" is correctly identified as a palindrome
+        assertTrue(checker.isPalindrome("r a_d_a r"));
     }
 
     @Test
     public void testIsPalindrome2() {
-        assertFalse(checker.isPalindrome("hello")); // Test if "hello" is correctly identified as not a palindrome
+        // Test if "hello" is correctly identified as not a palindrome
+        assertFalse(checker.isPalindrome("hello"));
     }
 
     @Test
     public void testIsPalindrome3() {
-        assertTrue(checker.isPalindrome("madam")); // Test if "madam" is correctly identified as a palindrome
+        // Test if "madam" is correctly identified as a palindrome
+        assertTrue(checker.isPalindrome("madam"));
     }
 
     @Test
     public void testIsPositive1() {
-        assertTrue(checker.isPositive(1)); // Test if 1 is correctly identified as a positive number
+        // Test if 1 is correctly identified as a positive number
+        assertTrue(checker.isPositive(1));
     }
 
     @Test
     public void testIsPositive2() {
-        assertFalse(checker.isPositive(-1)); // Test if -1 is correctly identified as not a positive number
+        // Test if -1 is correctly identified as not a positive number
+        assertFalse(checker.isPositive(-1));
     }
 
     @Test
     public void testIsPositive3() {
-        assertFalse(checker.isPositive(0)); // Test if 0 is correctly identified as not a positive number
+        // Test if 0 is correctly identified as not a positive number
+        assertFalse(checker.isPositive(0));
     }
 }
