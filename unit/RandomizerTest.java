@@ -101,6 +101,7 @@ public class RandomizerTest {
 	}
 
 	// Testing getRandomBoolean method
+	@Test
 	public void testGetRandomBoolean1() {
 		boolean result = randomizer.getRandomBoolean();
 		assertTrue(result == true || result == false); // Should return either true or false
