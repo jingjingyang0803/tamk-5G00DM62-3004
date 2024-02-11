@@ -41,7 +41,7 @@ class ArrayFind {
 	/**
 	 * Finds the first value within a specified range in an array.
 	 *
-	 * This method iterates through the elements of the input array up to a
+	 * Iterates through the elements of the input array up to a
 	 * specified length and returns the first value that falls within the given
 	 * range (inclusive of 'from' and 'to'). If no value within the range is
 	 * found in the considered portion of the array, a specified 'notFound'
@@ -63,7 +63,8 @@ class ArrayFind {
 	 * 					 such value is found. The range includes both 'from' and
 	 * 					 'to' values.
 	 */
-	public static int find(int[] array, int length, int from, int to, int notFound) {
+	public static int find(int[] array, int length, int from, int to,
+						   int notFound) {
 		int maxLength = length > array.length ? array.length : length;
 
 		for (int i = 0; i < maxLength; i++) {

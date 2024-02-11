@@ -20,7 +20,6 @@ class ArrayMin {
 	 *             int min = min(array, length);           // min = 1
      *
      * @param args Command line arguments. Not used.
-     * @return No return value (void method).
      */
 	public static void main(String[] args) {
 		int length = 3;
@@ -31,7 +30,7 @@ class ArrayMin {
 	}
 
 	/**
-	 * Finds the minimum value in an array
+	 * Finds the minimum value in an array.
 	 *
 	 * @param array Input array
 	 * @param length The number of elements from the start of the array to

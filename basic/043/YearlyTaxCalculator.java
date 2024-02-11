@@ -19,7 +19,6 @@ class YearlyTaxCalculator {
 	 *             double taxes = taxes(yearlySalary, percentage);
      *
      * @param args Command line arguments. Not used.
-     * @return No return value (void method).
      */
 	public static void main(String[] args) {
 		double yearlySalary = 58977;

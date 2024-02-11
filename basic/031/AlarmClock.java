@@ -28,9 +28,9 @@ class AlarmClock {
 	}
 
 	/**
-	 * This method starts the countdown.
+	 * Starts the countdown.
+	 *
 	 * @param startValue the starting value of the countdown
-	 * @return No return value (void method).
 	 */
 	public static void startCountDown(int startValue) {
 		for (int i = startValue; i >= 0; i--) {
@@ -42,7 +42,6 @@ class AlarmClock {
 	 * Displays the countdown or ALARM when it reaches zero.
 	 *
 	 * @param value the current value of the countdown
-	 * @return No return value (void method).
 	 */
 	public static void displayCountdown(int value) {
 		if (value == 0) {

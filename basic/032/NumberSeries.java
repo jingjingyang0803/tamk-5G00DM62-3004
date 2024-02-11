@@ -23,7 +23,6 @@ class NumberSeries {
 	 *             123456789 123456789 12345
      *
      * @param args Command line arguments. Not used.
-     * @return No return value (void method).
      */
 	public static void main(String[] args) {
 		printSeries(25);

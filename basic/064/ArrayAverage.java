@@ -32,7 +32,7 @@ class ArrayAverage {
 	/**
 	 * Calculates the average value of an array.
 	 *
-	 * This method sums up the elements of the input array up to a specified
+	 * Sums up the elements of the input array up to a specified
 	 * length and then calculates the average.
 	 *
 	 * @param array  Input array of integers. It should not be null, and should
@@ -50,7 +50,6 @@ class ArrayAverage {
 	 * 					the considered elements divided by the number of these
 	 * 					elements.
 	 */
-
 	public static double average(int[] array, int length) {
 		double sum = 0;
 		int maxLength = length > array.length ? array.length : length;
