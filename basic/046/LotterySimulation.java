@@ -1,15 +1,15 @@
 /**
  * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0208 (last modified)
+ * @version     2024.0212 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 class LotterySimulation {
 
     /**
-     * Exercise: 4.6
-     *     4.6 Function lottery
+     * Implements lottery.
 	 *
-	 *         NOTE: use function dice() from previous exercise.
+	 * Exercise: 4.6
+     *     4.6 Function lottery
 	 *
 	 *         NOTE: use function dice() from previous exercise.
 	 *
@@ -28,14 +28,15 @@ class LotterySimulation {
 	 *         [2] https://www.veikkaus.fi/fi/lotto
      *
      * @param args Command line arguments. Not used.
-     * @return No return value (void method).
      */
 	public static void main(String[] args) {
 		lottery();
 	}
 
 	/**
-	 * This method simulates a simple lottery system where the numbers and spare numbers are displayed to the screen.
+	 * Simulates a simple lottery system.
+	 *
+	 * The numbers and spare numbers are displayed to the screen.
 	 * It uses the dice method to generate lottery numbers.
 	 */
 	public static void lottery() {
@@ -50,7 +51,8 @@ class LotterySimulation {
 	}
 
 	/**
-	 * This method simulates a dice roll and returns a random number between 1 and 40.
+	 * Simulates a dice roll and returns a random number between 1 and 40.
+	 *
 	 * @return Dice roll value.
 	 */
 	public static int dice() {

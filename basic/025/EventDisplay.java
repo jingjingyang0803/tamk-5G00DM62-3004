@@ -1,11 +1,13 @@
 /**
  * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0208 (last modified)
+ * @version     2024.0212 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 class EventDisplay {
 
 	/**
+	 * Prints an event based on the day, hour, and minute.
+	 *
 	 * Exercise: 2.5
 	 *     2.5 If calendar
 	 *
@@ -16,7 +18,7 @@ class EventDisplay {
 	 *             - hour
 	 *             - minute
 	 *
-	 *          Write event notification to the screen if the values match any of:
+	 *        Write event notification to the screen if the values match any of:
 	 *
 	 *             * Mon 19:00-20:30 volleyball
 	 *             * Wed 20:30-21:30 badminton
@@ -27,7 +29,6 @@ class EventDisplay {
 	 *             No events for WEEKDAY HH:MM
 	 *
 	 * @param args Command line arguments. Not used.
-  	 * @return No return value (void method).
 	 */
 	public static void main(String[] args) {
 		int weekday = 1;
@@ -37,11 +38,11 @@ class EventDisplay {
 	}
 
 	/**
-	 * The method printEventDisplay is used to print any events based on the day, hour, and minute.
+	 * Prints any events based on the day, hour, and minute.
+	 *
 	 * @param weekday The day of the week
 	 * @param hour The hour of the day
 	 * @param minute The minute of the hour
-	 * @return No return value (void method).
 	 */
 	public static void printEventDisplay(int weekday, int hour, int minute) {
 		final int MONDAY = 1;
@@ -52,17 +53,22 @@ class EventDisplay {
 		final int SATURDAY = 6;
 		final int SUNDAY = 7;
 
-		String[] days = {"", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+		String[] days = {"", "Monday", "Tuesday", "Wednesday", "Thursday",
+				"Friday", "Saturday", "Sunday"};
 
-		if (weekday == MONDAY && ((hour == 19 && minute >= 0) || (hour == 20 && minute <= 30))) {
+		if (weekday == MONDAY && ((hour == 19 && minute >= 0) ||
+				(hour == 20 && minute <= 30))) {
 			System.out.println("Volleyball");
-		} else if (weekday == WEDNESDAY && ((hour == 20 && minute >= 30) || (hour == 21 && minute <= 30))) {
+		} else if (weekday == WEDNESDAY && ((hour == 20 && minute >= 30) ||
+				(hour == 21 && minute <= 30))) {
 			System.out.println("Badminton");
-		} else if (weekday == SATURDAY && ((hour == 10) || (hour == 11 && minute == 0))) {
+		} else if (weekday == SATURDAY && ((hour == 10) ||
+				(hour == 11 && minute == 0))) {
 			System.out.println("Gym");
 		} else {
 			String timeFormatted = String.format("%02d:%02d", hour, minute);
-			System.out.println("No events for " + days[weekday] + " " + timeFormatted);
+			System.out.println("No events for " + days[weekday] + " "
+					+ timeFormatted);
 		}
 	}
 }

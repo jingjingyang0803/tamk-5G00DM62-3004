@@ -1,12 +1,14 @@
 /**
  * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0208 (last modified)
+ * @version     2024.0212 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 class MorseCode {
 
     /**
-     * Exercise: 5.5
+     * Converts a string (phone number) into a morse code
+	 *
+	 * 	 Exercise: 5.5
 	 *     5.5 Array morse code
 	 *
 	 *         Write a program to convert a string (phone number) into a
@@ -20,10 +22,10 @@ class MorseCode {
 	 *         [1] https://en.wikipedia.org/wiki/Morse_code
 	 *
 	 *         [2] https://www.w3schools.com/cpp/cpp_strings.asp
-	 *             https://www.geeksforgeeks.org/different-ways-to-access-characters-in-a-given-string-in-c/
+	 *             https://www.geeksforgeeks.org/different-ways-to
+	 *             -access-characters-in-a-given-string-in-c/
      *
      * @param args Command line arguments. Not used.
-     * @return No return value (void method).
      */
 	public static void main(String[] args) {
 		String phoneNumber = "050123456";
@@ -31,9 +33,9 @@ class MorseCode {
 	}
 
 	/**
-	 * This method prints a string in Morse code.
+	 * Prints a string in Morse code.
+	 *
 	 * @param text The string to convert to Morse code.
-	 * @return No return value (void method).
 	 */
 	public static void printMorseCode(String text) {
 		// Define each Morse code as a final variable
@@ -49,22 +51,26 @@ class MorseCode {
 		final String NINE = "----.";
 
 		// Create the array using these variables
-		String[] morseCode = {ZERO, ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE};
+		String[] morseCode = {ZERO, ONE, TWO, THREE, FOUR,
+				FIVE, SIX, SEVEN, EIGHT, NINE};
 
 		for (char digit : text.toCharArray()) {
-			int index = digit - '0';// convert the character digit to its corresponding integer value
+			// convert the character digit to its corresponding integer value
+			int index = digit - '0';
 			System.out.print(morseCode[index] + " ");
 		}
 		System.out.println();
 	}
 
 	/**
-	 * This method converts a digit to Morse code.
+	 * Converts a digit to Morse code.
+	 *
 	 * @param digit The digit to convert to Morse code.
 	 * @return The Morse code for the digit.
 	 */
 	public static String digitToMorseCode(char digit) {
-		String[] morseCode = {".----", "..---", "...--", "....-", ".....", "-....", "--...", "---..", "----.", "-----"};
+		String[] morseCode = {".----", "..---", "...--", "....-", ".....",
+				"-....", "--...", "---..", "----.", "-----"};
 		int index = digit - '0';
 		return morseCode[index];
 	}

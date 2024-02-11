@@ -1,12 +1,14 @@
 /**
  * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0208 (last modified)
+ * @version     2024.0212 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 class MultiplicationTable {
 
     /**
-     * Exercise: 3.6
+     * Display a multiplication table.
+	 *
+	 * Exercise: 3.6
      *       3.6 Loop multable
 	 *
 	 *         Write a program to display a multiplication table. The size of
@@ -38,16 +40,15 @@ class MultiplicationTable {
 	 *              99 x 55 => requires 4 digit display area for value 5445
      *
      * @param args Command line arguments. Not used.
-     * @return No return value (void method).
      */
 	public static void main(String[] args) {
 		printTable(9);
 	}
 
 	/**
-	 * This method prints a multiplication table.
+	 * Prints a multiplication table.
+	 *
 	 * @param size the size of the table
-	 * @return No return value (void method).
 	 */
 	public static void printTable(int size) {
 		System.out.print(" * |");

@@ -1,12 +1,14 @@
 /**
  * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0208 (last modified)
+ * @version     2024.0212 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 class ArraySum {
 
     /**
-     * Exercise: 6.1
+     * Calculates sum of an integer array.
+	 *
+	 * Exercise: 6.1
      *     6.1 Function array sum
 	 *
 	 *         Write a function that calculates sum of an integer array.
@@ -18,7 +20,6 @@ class ArraySum {
 	 *             int sum = sum(array, length);         // sum = 6
      *
      * @param args Command line arguments. Not used.
-     * @return No return value (void method).
      */
 	public static void main(String[] args) {
 		int length = 3;
@@ -28,6 +29,19 @@ class ArraySum {
 		System.out.println("Sum = " + sum);
 	}
 
+	/**
+	 * Calculates the sum of values in an array.
+	 *
+	 * @param array The input array of integers.
+	 * @param length The number of elements from the start of the array to be
+	 *                  summed. If 'length' is greater than the array's length,
+	 *                  the method sums the entire array. The behavior is
+	 *                  undefined if the array is empty or if 'length' is zero,
+	 *                  which may result in an exception.
+	 * @return The sum of the first 'length' elements of the array.
+	 * 					If 'length' exceeds the array's length, the sum of the
+	 * 					entire array is returned.
+	 */
 	public static int sum(int[] array, int length) {
 		int sum = 0;
 		int maxLength = length > array.length ? array.length : length;

@@ -2,13 +2,15 @@ import java.text.DecimalFormat;
 
 /**
  * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0208 (last modified)
+ * @version     2024.0212 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 class YearlyTaxCalculator {
 
     /**
-     * Exercise: 4.3
+     * Calculates taxes.
+	 *
+	 * Exercise: 4.3
      *     4.3 Function tax
 	 *
 	 *         Write a function to calculate taxes.
@@ -28,7 +30,8 @@ class YearlyTaxCalculator {
 	}
 
 	/**
-	 * This method calculates the taxes based on yearly salary and tax percentage.
+	 * Calculates the taxes based on yearly salary and tax percentage.
+	 *
 	 * @param yearlySalary The yearly salary of the person.
 	 * @param percentage The tax percentage.
 	 * @return The calculated tax.

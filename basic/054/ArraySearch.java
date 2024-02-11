@@ -1,16 +1,18 @@
 /**
  * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0208 (last modified)
+ * @version     2024.0212 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 class ArraySearch {
 
     /**
-     * Exercise: 5.4
+     * Searchs values from array in range MIN..MAX (both inclusive).
+	 *
+	 * 	 Exercise: 5.4
      *     5.4 Array search
 	 *
-	 *         Write a program to search values from array in range MIN..MAX (both
-	 *         inclusive). An example:
+	 *         Write a program to search values from array in range MIN..MAX
+	 *         (both inclusive). An example:
 	 *
 	 *             int array[] = {-3, -2, -1, 0, 1, 2, 3};
 	 *             int min = -1;
@@ -21,7 +23,6 @@ class ArraySearch {
 	 *             -1, 0, 1, 2
      *
      * @param args Command line arguments. Not used.
-     * @return No return value (void method).
      */
 	public static void main(String[] args) {
 		int[] array = {-3, -2, -1, 0, 1, 2, 3};
@@ -31,6 +32,13 @@ class ArraySearch {
 		printValuesInArray(result);
 	}
 
+	/**
+	 * Prints the elements of the given array, separated by commas.
+	 *
+	 * If the array is empty, a specific message is displayed.
+	 *
+	 * @param array The array of integers to be printed.
+	 */
 	public static void printValuesInArray(int[] array) {
 		for (int i = 0; i < array.length; i++ ) {
 			if (i == array.length - 1) {
@@ -40,9 +48,21 @@ class ArraySearch {
 			}
 		}
 		if (array.length == 0)
-			System.out.print("The provided array does not contain any values within the specified range.");
+			System.out.print("The provided array does not contain any values " +
+					"within the specified range.");
 	}
 
+	/**
+	 * Returns a new array with elements in range from the original array.
+	 *
+	 * Creates and returns a new array containing the elements of the original
+	 * array that fall within the specified range (inclusive).
+	 *
+	 * @param arr The original array of integers.
+	 * @param min The minimum value of the range.
+	 * @param max The maximum value of the range.
+	 * @return An array of integers within the specified range.
+	 */
 	public static int[] valuesInRange(int[] arr, int min, int max) {
 		// Count how many elements are in the range
 		int count = 0;

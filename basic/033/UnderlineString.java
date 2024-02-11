@@ -1,12 +1,14 @@
 /**
  * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0208 (last modified)
+ * @version     2024.0212 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 class UnderlineString {
 
     /**
-     * Exercise: 3.3
+     * Draws an underline below a string.
+	 *
+	 * Exercise: 3.3
      *      3.3 Loop underline
 	 *
 	 *         Write a program to draw an underline below a string. The program
@@ -21,19 +23,19 @@ class UnderlineString {
 	 *                 This is a test
 	 *                 --------------
 	 *
-	 *         [1] https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/lang/String.html
+	 *         [1] https://docs.oracle.com/en/java/javase/15/docs/api/java.base
+	 *         /java/lang/String.html
      *
      * @param args Command line arguments. Not used.
-     * @return No return value (void method).
      */
 	public static void main(String[] args) {
 		printUnderlined("This is a test");
 	}
 
 	/**
-	 * This method prints a string and an underline.
+	 * Prints a string and an underline.
+	 *
 	 * @param str the string to be underlined
-	 * @return No return value (void method).
 	 */
 	public static void printUnderlined(String str) {
 		System.out.println(str);
@@ -41,9 +43,9 @@ class UnderlineString {
 	}
 
 	/**
-	 * This method prints an underline.
+	 * Prints an underline.
+	 *
 	 * @param length the length of the underline
-	 * @return No return value (void method).
 	 */
 	public static void printUnderline(int length) {
 		for (int i = 0; i < length; i++) {

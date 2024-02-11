@@ -1,11 +1,13 @@
 /**
  * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0208 (last modified)
+ * @version     2024.0212 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 class TemperatureReport {
 
 	/**
+	 * Prints the temperature category of a city based on its temperature.
+	 *
 	 * Exercise: 2.4
 	 *         2.4 If temperature
 	 *
@@ -23,10 +25,10 @@ class TemperatureReport {
 	 *
 	 *         Use following decision table:
 	 *
-	 *             If temperature is below -20 in Tampere, display "Freezing"
-	 *             If temperature is below -20 in Turku or Helsinki, display "Ice Freezing"
-	 *             If temperature is above -20 in Tampere, display "Moderate Winter"
-	 *             If temperature is between -20..-10 in Helsinki or Turku, display "Ice Cold"
+	 *             If below -20 in Tampere, display "Freezing"
+	 *             If below -20 in Turku or Helsinki, display "Ice Freezing"
+	 *             If above -20 in Tampere, display "Moderate Winter"
+	 *             If between -20..-10 in Helsinki or Turku, display "Ice Cold"
 	 *
 	 * @param args Command line arguments. Not used.
 	 * @return No return value (void method).
@@ -38,10 +40,10 @@ class TemperatureReport {
 	}
 
 	/**
-	 * The method printTemperatureReport is used to print the temperature category of a city based on its temperature.
+	 * Prints the temperature category of a city based on its temperature.
+	 *
 	 * @param city The city
 	 * @param temperature The temperature of the city
-	 * @return No return value (void method).
 	 */
 	public static void printTemperatureReport(int city, int temperature) {
 		final int HELSINKI = 0;

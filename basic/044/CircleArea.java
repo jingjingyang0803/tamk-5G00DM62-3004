@@ -6,17 +6,19 @@
 class CircleArea {
 
     /**
-     * Exercise: 4.4
+     * Calculates areas of an Circle.
+	 *
+	 * Exercise: 4.4
      *     4.4 Function area
 	 *
 	 *         Write a functions to calculate areas of an Circle.
 	 *
 	 *             double areaCircle(double radius)
 	 *
-	 *         [1] https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/lang/Math.html
+	 *         [1] https://docs.oracle.com/en/java/javase/15/docs/api/java.base
+	 *         /java/lang/Math.html
      *
      * @param args Command line arguments. Not used.
-     * @return No return value (void method).
      */
 	public static void main(String[] args) {
 		double radius = 5;
@@ -25,7 +27,8 @@ class CircleArea {
 	}
 
 	/**
-	 * This method calculates the area of a circle.
+	 * Calculates the area of a circle.
+	 *
 	 * @param radius The radius of the circle.
 	 * @return The area of the circle.
 	 */

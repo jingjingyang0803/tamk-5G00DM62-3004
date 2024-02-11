@@ -1,12 +1,14 @@
 /**
  * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0208 (last modified)
+ * @version     2024.0212 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 class DrawArrow {
 
     /**
-     * Exercise: 3.5
+     * Displays a pattern of an arrow.
+	 *
+	 * Exercise: 3.5
      *         3.5 Loop shape arrow
 	 *
 	 *         Write a program to display following pattern. Solve the problem
@@ -26,7 +28,6 @@ class DrawArrow {
 	 *             * * * *
      *
      * @param args Command line arguments. Not used.
-     * @return No return value (void method).
      */
 	public static void main(String[] args) {
 		int size = 5;
@@ -35,10 +36,10 @@ class DrawArrow {
 	}
 
 	/**
-	 * This method draws an arrow.
+	 * Draws an arrow.
+	 *
 	 * @param size the size of the arrow
 	 * @param character the character used to draw the arrow
-	 * @return No return value (void method).
 	 */
 	public static void drawArrow(int size, char character) {
 		// upper half of the arrow

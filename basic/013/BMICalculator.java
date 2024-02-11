@@ -2,7 +2,7 @@ import java.text.DecimalFormat;
 
 /**
  * @author 		Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0211 (last modified)
+ * @version     2024.0212 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 class BMICalculator {
@@ -23,7 +23,6 @@ class BMICalculator {
 	 *         [1] https://en.wikipedia.org/wiki/Body_mass_index
 	 *
 	 * @param  args  Command line arguments. Not used.
-	 * @return No return value (void method).
 	 */
 	public static void main(String[] args) {
 		int weight = 56; // in kg

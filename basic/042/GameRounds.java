@@ -1,12 +1,14 @@
 /**
  * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0208 (last modified)
+ * @version     2024.0212 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 class GameRounds {
 
     /**
-     * Exercise: 4.2
+     * Determines how many rounds player can afford to play.
+	 *
+	 * Exercise: 4.2
      *     4.2 Function play
 	 *
 	 *         Write a function which determines how many rounds player can
@@ -19,7 +21,6 @@ class GameRounds {
 	 *             double rounds = play(money, roundPrice);
      *
      * @param args Command line arguments. Not used.
-     * @return No return value (void method).
      */
 	public static void main(String[] args) {
 		double money = 20.55;
@@ -29,7 +30,8 @@ class GameRounds {
 	}
 
 	/**
-	 * This method calculates the number of rounds a player can play.
+	 * Calculates the number of rounds a player can play.
+	 *
 	 * @param money Total money player has.
 	 * @param roundPrice Price of each round.
 	 * @return The number of rounds player can play.

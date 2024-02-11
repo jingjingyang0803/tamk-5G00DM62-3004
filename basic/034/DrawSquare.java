@@ -1,12 +1,14 @@
 /**
  * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0208 (last modified)
+ * @version     2024.0212 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 class DrawSquare {
 
     /**
-     * Exercise: 3.4
+     * Displays a square to the screen based on defined SIZE.
+	 *
+	 * 	 Exercise: 3.4
      *         3.4 Loop shape square
 	 *
 	 *         Write a program to display a square to the screen based on
@@ -19,7 +21,6 @@ class DrawSquare {
 	 *                         xxxx
      *
      * @param args Command line arguments. Not used.
-     * @return No return value (void method).
      */
 	public static void main(String[] args) {
 		drawSquare(2);
@@ -30,9 +31,9 @@ class DrawSquare {
 	}
 
 	/**
-	 * This method draws a square.
+	 * Draws a square.
+	 *
 	 * @param size the size of the square
-	 * @return No return value (void method).
 	 */
 	public static void drawSquare(int size) {
 		for (int i = 0; i < size; i++) {

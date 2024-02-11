@@ -1,12 +1,14 @@
 /**
  * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0208 (last modified)
+ * @version     2024.0212 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 class TemperatureStats {
 
     /**
-     * Exercise: 5.2
+     * Stores 10 temperature values (in double) to an array.
+	 *
+	 * 	 Exercise: 5.2
      *     5.2 Array temperatures
 	 *
 	 *         Write a program to store 10 temperature values (in double) to an
@@ -18,17 +20,18 @@ class TemperatureStats {
 	 *             Avg: NN.N
      *
      * @param args Command line arguments. Not used.
-     * @return No return value (void method).
      */
 	public static void main(String[] args) {
-		double[] temperatures = {15.5, 17.2, 18.0, 16.5, 19.0, 20.1, 21.5, 22.5, 23.0, 24.5};
+		double[] temperatures = {15.5, 17.2, 18.0, 16.5, 19.0,
+				20.1, 21.5, 22.5, 23.0, 24.5};
 		System.out.println("Min: " + minTemperature(temperatures));
 		System.out.println("Max: " + maxTemperature(temperatures));
 		System.out.println("Avg: " + averageTemperature(temperatures));
 	}
 
 	/**
-	 * This method calculates minimum temperature.
+	 * Calculates minimum temperature.
+	 *
 	 * @param temperatures Array of temperature values.
 	 * @return Minimum temperature value.
 	 */
@@ -41,7 +44,8 @@ class TemperatureStats {
 	}
 
 	/**
-	 * This method calculates maximum temperature.
+	 * Calculates maximum temperature.
+	 *
 	 * @param temperatures Array of temperature values.
 	 * @return Maximum temperature value.
 	 */
@@ -54,7 +58,8 @@ class TemperatureStats {
 	}
 
 	/**
-	 * This method calculates average temperature.
+	 * Calculates average temperature.
+	 *
 	 * @param temperatures Array of temperature values.
 	 * @return Average temperature value.
 	 */

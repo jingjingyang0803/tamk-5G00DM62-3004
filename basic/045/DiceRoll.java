@@ -1,12 +1,14 @@
 /**
  * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0208 (last modified)
+ * @version     2024.0212 (last modified)
  * @since   	17.0 (miminimum Java version)
  */
 class DiceRoll {
 
     /**
-     * Exercise: 4.5
+     * Simulates a dice roll.
+	 *
+	 * Exercise: 4.5
      *     4.5 Function dice
 	 *
 	 *         Write a function dice(). Implement it by returning a random[1]
@@ -14,7 +16,8 @@ class DiceRoll {
 	 *
 	 *             int value = dice();
 	 *
-	 *         [1] https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/lang/Math.html
+	 *         [1] https://docs.oracle.com/en/java/javase/15/docs/api/java.base
+	 *         /java/lang/Math.html
      *
      * @param args Command line arguments. Not used.
      * @return No return value (void method).
@@ -25,7 +28,8 @@ class DiceRoll {
 	}
 
 	/**
-	 * This method simulates a dice roll and returns a random number between 1 and 6.
+	 * Simulates a dice roll and returns a random number between 1 and 6.
+	 *
 	 * @return Dice roll value.
 	 */
 	public static int dice() {
