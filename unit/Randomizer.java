@@ -73,6 +73,7 @@ class Randomizer {
 	 *
 	 * @param list The list from which to pick an element.
 	 * @return A random element from the list.
+	 * @throws IllegalArgumentException if the list is null or empty.
 	 */
 	public <T> T getRandomElementFromList(List<T> list) {
 
