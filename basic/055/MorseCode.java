@@ -7,7 +7,7 @@ class MorseCode {
 
 	/**
 	 * Converts a string (phone number) into a morse code.
-	 * <p>
+	 *
 	 * Exercise: 5.5
 	 * 5.5 Array morse code
 	 * <p>

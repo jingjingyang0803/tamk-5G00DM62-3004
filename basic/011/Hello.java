@@ -7,7 +7,7 @@ class Hello {
 
 	/**
 	 * Displays the user's name in a box created by *.
-	 * <p>
+	 *
 	 * Exercise: 1.1
 	 * 1.1 Program hello
 	 * <p>

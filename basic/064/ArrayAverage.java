@@ -7,7 +7,7 @@ class ArrayAverage {
 
 	/**
 	 * Calculates and displays average of an integer array.
-	 * <p>
+	 *
 	 * Exercise: 6.4
 	 * 6.4 Function array average
 	 * <p>

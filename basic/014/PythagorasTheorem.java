@@ -9,7 +9,7 @@ class PythagorasTheorem {
 
 	/**
 	 * Calculates and prints pythagoras.
-	 * <p>
+	 *
 	 * Exercise: 1.4
 	 * 1.4 Calculate pythagoras
 	 * <p>

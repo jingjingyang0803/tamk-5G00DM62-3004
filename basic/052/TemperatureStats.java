@@ -7,7 +7,7 @@ class TemperatureStats {
 
 	/**
 	 * Stores 10 temperature values (in double) to an array.
-	 * <p>
+	 *
 	 * Exercise: 5.2
 	 * 5.2 Array temperatures
 	 * <p>

@@ -9,7 +9,7 @@ class Print {
 
 	/**
 	 * Displays the user's first name. last name, and height (cm) to the screen.
-	 * <p>
+	 *
 	 * Exercise: 1.2
 	 * 1.2 Program print
 	 * <p>

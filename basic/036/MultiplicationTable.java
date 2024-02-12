@@ -6,8 +6,8 @@
 class MultiplicationTable {
 
 	/**
-	 * Display a multiplication table.
-	 * <p>
+	 * Displays a multiplication table.
+	 *
 	 * Exercise: 3.6
 	 * 3.6 Loop multable
 	 * <p>

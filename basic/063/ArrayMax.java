@@ -31,7 +31,7 @@ class ArrayMax {
 
 	/**
 	 * Finds the maximum value in an array.
-	 * <p>
+	 *
 	 * This method iterates through the elements of the input array up to a
 	 * specified length and finds the maximum value.
 	 *

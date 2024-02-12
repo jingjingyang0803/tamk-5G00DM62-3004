@@ -7,7 +7,7 @@ class CircleArea {
 
 	/**
 	 * Calculates areas of an Circle.
-	 * <p>
+	 *
 	 * Exercise: 4.4
 	 * 4.4 Function area
 	 * <p>

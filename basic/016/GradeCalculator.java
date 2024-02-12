@@ -9,7 +9,7 @@ class GradeCalculator {
 
 	/**
 	 * Calculates and prints the weighted average grade.
-	 * <p>
+	 *
 	 * Exercise: 1.6
 	 * 1.6 Calculate grade
 	 * <p>

@@ -7,7 +7,7 @@ class ArrayFind {
 
 	/**
 	 * Displays first value in range FROM..TO (inclusive)
-	 * <p>
+	 *
 	 * Exercise: 6.5
 	 * 6.5 Function array find
 	 * <p>

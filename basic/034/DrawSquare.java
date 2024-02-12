@@ -7,7 +7,7 @@ class DrawSquare {
 
 	/**
 	 * Displays a square to the screen based on defined SIZE.
-	 * <p>
+	 *
 	 * Exercise: 3.4
 	 * 3.4 Loop shape square
 	 * <p>

@@ -7,7 +7,7 @@ class TemperatureReport {
 
 	/**
 	 * Prints the temperature category of a city based on its temperature.
-	 * <p>
+	 *
 	 * Exercise: 2.4
 	 * 2.4 If temperature
 	 * <p>
@@ -31,7 +31,6 @@ class TemperatureReport {
 	 * If between -20..-10 in Helsinki or Turku, display "Ice Cold"
 	 *
 	 * @param args Command line arguments. Not used.
-	 * @return No return value (void method).
 	 */
 	public static void main(String[] args) {
 		int city = 0;
@@ -57,6 +56,7 @@ class TemperatureReport {
 				System.out.println("Moderate Winter");
 			}
 		} else if (city == TURKU || city == HELSINKI) {
+
 			if (temperature < -20) {
 				System.out.println("Ice Freezing");
 			} else if (temperature < -10) {

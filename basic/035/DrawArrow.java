@@ -7,7 +7,7 @@ class DrawArrow {
 
 	/**
 	 * Displays a pattern of an arrow.
-	 * <p>
+	 *
 	 * Exercise: 3.5
 	 * 3.5 Loop shape arrow
 	 * <p>

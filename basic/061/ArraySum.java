@@ -7,7 +7,7 @@ class ArraySum {
 
 	/**
 	 * Calculates sum of an integer array.
-	 * <p>
+	 *
 	 * Exercise: 6.1
 	 * 6.1 Function array sum
 	 * <p>

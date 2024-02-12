@@ -7,7 +7,7 @@ class DiceRoll {
 
 	/**
 	 * Simulates a dice roll.
-	 * <p>
+	 *
 	 * Exercise: 4.5
 	 * 4.5 Function dice
 	 * <p>
@@ -20,7 +20,6 @@ class DiceRoll {
 	 * /lang/Math.html
 	 *
 	 * @param args Command line arguments. Not used.
-	 * @return No return value (void method).
 	 */
 	public static void main(String[] args) {
 		int value = dice();

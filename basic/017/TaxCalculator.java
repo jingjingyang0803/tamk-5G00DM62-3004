@@ -9,7 +9,7 @@ class TaxCalculator {
 
 	/**
 	 * Calculates and displays earnings and taxes for an individual.
-	 * <p>
+	 *
 	 * Exercise: 1.7
 	 * 1.7 Calculate taxes
 	 * <p>

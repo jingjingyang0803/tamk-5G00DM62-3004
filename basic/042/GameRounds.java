@@ -7,7 +7,7 @@ class GameRounds {
 
 	/**
 	 * Determines how many rounds player can afford to play.
-	 * <p>
+	 *
 	 * Exercise: 4.2
 	 * 4.2 Function play
 	 * <p>

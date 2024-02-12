@@ -7,7 +7,7 @@ class UnderlineString {
 
 	/**
 	 * Draws an underline below a string.
-	 * <p>
+	 *
 	 * Exercise: 3.3
 	 * 3.3 Loop underline
 	 * <p>

@@ -7,7 +7,7 @@ class LotterySimulation {
 
 	/**
 	 * Implements lottery.
-	 * <p>
+	 *
 	 * Exercise: 4.6
 	 * 4.6 Function lottery
 	 * <p>

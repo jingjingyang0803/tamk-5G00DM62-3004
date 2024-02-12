@@ -9,7 +9,7 @@ class YearlyTaxCalculator {
 
 	/**
 	 * Calculates taxes.
-	 * <p>
+	 *
 	 * Exercise: 4.3
 	 * 4.3 Function tax
 	 * <p>

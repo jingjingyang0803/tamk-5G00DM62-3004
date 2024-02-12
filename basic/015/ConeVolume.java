@@ -9,7 +9,7 @@ class ConeVolume {
 
 	/**
 	 * Calculates and prints the volume of a cone.
-	 * <p>
+	 *
 	 * Exercise: 1.5
 	 * 1.5 Calculate cone
 	 * <p>

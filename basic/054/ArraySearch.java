@@ -7,7 +7,7 @@ class ArraySearch {
 
 	/**
 	 * Searchs values from array in range MIN..MAX (both inclusive).
-	 * <p>
+	 *
 	 * Exercise: 5.4
 	 * 5.4 Array search
 	 * <p>

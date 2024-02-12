@@ -7,7 +7,7 @@ class GenderHeight {
 
 	/**
 	 * Prints the height category of a person based on their gender and height.
-	 * <p>
+	 *
 	 * Exercise: 2.3
 	 * 2.3 If gender
 	 * <p>

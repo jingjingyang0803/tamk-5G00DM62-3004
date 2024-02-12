@@ -7,7 +7,7 @@ class OrderValues {
 
 	/**
 	 * Determines and prints the order of three numbers.
-	 * <p>
+	 *
 	 * Exercise: 2.1
 	 * 2.1 If choices
 	 * <p>
@@ -27,7 +27,6 @@ class OrderValues {
 	 * 4 is the smallest
 	 *
 	 * @param args Command line arguments. Not used.
-	 * @return No return value (void method).
 	 */
 	public static void main(String[] args) {
 		int a = 15, b = 4, c = 7;
@@ -42,7 +41,10 @@ class OrderValues {
 	 * @param c The third number
 	 */
 	public static void printOrder(int a, int b, int c) {
-		int biggest, middle, smallest;
+		int biggest;
+		int middle;
+		int smallest;
+
 		if (a > b) {
 
 			if (a > c) {
@@ -87,7 +89,6 @@ class OrderValues {
 	 * @param biggest  The biggest number
 	 * @param middle   The middle number
 	 * @param smallest The smallest number
-	 * @return No return value (void method).
 	 */
 	public static void printResults(int biggest, int middle, int smallest) {
 		System.out.println(biggest + " is the biggest");

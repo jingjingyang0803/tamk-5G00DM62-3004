@@ -7,7 +7,7 @@ class DayName {
 
 	/**
 	 * Prints the name of a day based on its numerical representation.
-	 * <p>
+	 *
 	 * Exercise: 2.2
 	 * 2.2 If day
 	 * <p>

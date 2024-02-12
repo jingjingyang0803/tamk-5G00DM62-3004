@@ -7,7 +7,7 @@ class ReverseArray {
 
 	/**
 	 * Displays values in array in *reverse* order.
-	 * <p>
+	 *
 	 * Exercise: 5.1
 	 * 5.1 Array print
 	 * <p>

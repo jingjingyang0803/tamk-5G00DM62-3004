@@ -7,7 +7,7 @@ class InchToCm {
 
 	/**
 	 * Converts array of 3 values from inches to centimeters.
-	 * <p>
+	 *
 	 * Exercise: 5.3
 	 * 5.3 Array convert
 	 * <p>

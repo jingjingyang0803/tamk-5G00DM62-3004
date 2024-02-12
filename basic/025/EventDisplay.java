@@ -7,7 +7,7 @@ class EventDisplay {
 
 	/**
 	 * Prints an event based on the day, hour, and minute.
-	 * <p>
+	 *
 	 * Exercise: 2.5
 	 * 2.5 If calendar
 	 * <p>

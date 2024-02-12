@@ -9,7 +9,7 @@ class BMICalculator {
 
 	/**
 	 * Calculates BMI using weight and height and prints to screen.
-	 * <p>
+	 *
 	 * Exercise: 1.3
 	 * 1.3 Calculate bmi
 	 * <p>

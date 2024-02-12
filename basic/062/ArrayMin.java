@@ -7,7 +7,7 @@ class ArrayMin {
 
 	/**
 	 * Displays the minimum value of an integer array.
-	 * <p>
+	 *
 	 * Exercise: 6.2
 	 * 6.2 Function array min
 	 * <p>

@@ -7,7 +7,7 @@ class ArithmeticSum {
 
 	/**
 	 * Calculates arithmetic sum.
-	 * <p>
+	 *
 	 * Exercise: 4.1
 	 * 4.1 Function sum
 	 * <p>

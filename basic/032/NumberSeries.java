@@ -7,7 +7,7 @@ class NumberSeries {
 
 	/**
 	 * Displays 10-based column numbers to the screen.
-	 * <p>
+	 *
 	 * Exercise: 3.2
 	 * 3.2 Loop series
 	 * <p>

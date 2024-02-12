@@ -7,7 +7,7 @@ class AlarmClock {
 
 	/**
 	 * Emulates an alarm clock.
-	 * <p>
+	 *
 	 * Exercise: 3.1
 	 * 3.1 Loop alarm
 	 * <p>
