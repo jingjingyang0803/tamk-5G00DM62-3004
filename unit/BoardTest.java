@@ -9,7 +9,7 @@ import org.junit.runners.JUnit4;
 @RunWith(JUnit4.class)
 public class BoardTest {
 	/**
-	 * Instance of Board used for testing
+	 * Instance of Board used for testing.
 	 */
 	private Board board;
 

@@ -12,7 +12,7 @@ import java.util.List;
 @RunWith(JUnit4.class)
 public class RandomizerTest {
 	/**
-	 * Instance of Randomizer used for testing
+	 * Instance of Randomizer used for testing.
 	 */
 	private Randomizer randomizer;
 
