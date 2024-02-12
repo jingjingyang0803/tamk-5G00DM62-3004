@@ -78,7 +78,7 @@ class ArrayFind {
 	/**
 	 * Displays the result of the search operation on the console.
 	 *
-	 * This method prints a message to the console based on the result of the search.
+	 * Prints a message to the console based on the result of the search.
 	 * If the index is negative, it indicates that no value was found within the specified range.
 	 * Otherwise, it prints the found value from the array.
 	 *
