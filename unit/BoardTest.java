@@ -8,6 +8,7 @@ import org.junit.runners.JUnit4;
 
 @RunWith(JUnit4.class)
 public class BoardTest {
+
 	/**
 	 * Instance of Board used for testing.
 	 */
@@ -23,6 +24,7 @@ public class BoardTest {
 	@Test
 	public void testInitializeBoard1() {
 		this.board.initializeBoard(); // Initialize the board
+
 		for (int i = 0; i < 3; i++) {
 			for (int j = 0; j < 3; j++) {
 				// Check if all cells are initialized to "-"

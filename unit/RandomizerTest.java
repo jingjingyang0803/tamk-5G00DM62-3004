@@ -11,6 +11,7 @@ import java.util.List;
 
 @RunWith(JUnit4.class)
 public class RandomizerTest {
+
 	/**
 	 * Instance of Randomizer used for testing.
 	 */
@@ -54,6 +55,7 @@ public class RandomizerTest {
 	@Test
 	public void testGetRandomNumberList2() {
 		List<Integer> list = randomizer.getRandomNumberList(5, 1, 10);
+
 		for (int number : list) {
 			// Each number should be within the range 1-10
 			assertTrue(number >= 1 && number <= 10);
@@ -78,6 +80,7 @@ public class RandomizerTest {
 	@Test
 	public void testGetRandomNumberArray2() {
 		int[] array = randomizer.getRandomNumberArray(5, 1, 10);
+
 		for (int number : array) {
 			// Each number should be within the range 1-10
 			assertTrue(number >= 1 && number <= 10);
@@ -130,10 +133,15 @@ public class RandomizerTest {
 
 		for (int i = 0; i < 1000; i++) {
 			boolean result = randomizer.getRandomBoolean();
-			if (result) hasTrue = true;
-			else hasFalse = true;
 
-			if (hasTrue && hasFalse) break;
+			if (result)
+				hasTrue = true;
+			else
+				hasFalse = true;
+
+			if (hasTrue && hasFalse)
+				break;
+
 		}
 
 		// Assert that both true and false were returned
@@ -148,8 +156,11 @@ public class RandomizerTest {
 
 		for (int i = 0; i < 10000; i++) {
 			boolean result = randomizer.getRandomBoolean();
-			if (result) trueCount++;
-			else falseCount++;
+
+			if (result)
+				trueCount++;
+			else
+				falseCount++;
 		}
 
 		// Assert that the counts are roughly equal

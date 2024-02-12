@@ -42,9 +42,11 @@ class Randomizer {
 	 */
 	public List<Integer> getRandomNumberList(int listSize, int min, int max) {
 		List<Integer> randomNumberList = new ArrayList<>();
+
 		for (int i = 0; i < listSize; i++) {
 			randomNumberList.add(getRandomNumberInRange(min, max));
 		}
+
 		return randomNumberList;
 	}
 
@@ -58,9 +60,11 @@ class Randomizer {
 	 */
 	public int[] getRandomNumberArray(int arraySize, int min, int max) {
 		int[] randomNumberArray = new int[arraySize];
+
 		for (int i = 0; i < arraySize; i++) {
 			randomNumberArray[i] = getRandomNumberInRange(min, max);
 		}
+
 		return randomNumberArray;
 	}
 
@@ -71,9 +75,11 @@ class Randomizer {
 	 * @return A random element from the list.
 	 */
 	public <T> T getRandomElementFromList(List<T> list) {
+
 		if (list == null || list.isEmpty()) {
 			throw new IllegalArgumentException("List cannot be null or empty.");
 		}
+
 		int randomIndex = random.nextInt(list.size());
 		return list.get(randomIndex);
 	}

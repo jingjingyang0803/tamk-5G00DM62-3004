@@ -12,7 +12,7 @@ class Calculator {
 	 * @param b the second integer
 	 * @return the sum of a and b
 	 */
-	public int add(int a, int b) {
+	public int add (int a, int b) {
 		return a + b;
 	}
 
@@ -50,6 +50,7 @@ class Calculator {
 		if (b == 0) {
 			throw new IllegalArgumentException("Cannot divide by zero");
 		}
+
 		return a / b;
 	}
 

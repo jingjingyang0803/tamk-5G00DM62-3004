@@ -1,8 +1,9 @@
 /**
- * @author 	Jingjing Yang <jingjing.yang@tuni.fi>
- * @version     2024.0211 (last modified)
- * @since   	17.0 (miminimum Java version)
+ * @author Jingjing Yang <jingjing.yang@tuni.fi>
+ * @version 2024.0211 (last modified)
+ * @since 17.0 (miminimum Java version)
  */
+
 import java.util.Arrays;
 
 class ArraySorter {
@@ -26,11 +27,13 @@ class ArraySorter {
 	 */
 	public int[] sortDescending(int[] arr) {
 		Arrays.sort(arr);
+
 		for (int i = 0; i < arr.length / 2; i++) {
 			int temp = arr[i];
 			arr[i] = arr[arr.length - i - 1];
 			arr[arr.length - i - 1] = temp;
 		}
+
 		return arr;
 	}
 
@@ -42,9 +45,11 @@ class ArraySorter {
 	 */
 	public int findMax(int[] arr) {
 		int maxVal = arr[0];
-		for(int i: arr) {
-			if(i > maxVal) maxVal = i;
+
+		for (int i : arr) {
+			if (i > maxVal) maxVal = i;
 		}
+
 		return maxVal;
 	}
 
@@ -56,9 +61,11 @@ class ArraySorter {
 	 */
 	public int findMin(int[] arr) {
 		int minVal = arr[0];
-		for(int i: arr) {
-			if(i < minVal) minVal = i;
+
+		for (int i : arr) {
+			if (i < minVal) minVal = i;
 		}
+
 		return minVal;
 	}
 
@@ -70,9 +77,11 @@ class ArraySorter {
 	 */
 	public int findSum(int[] arr) {
 		int sum = 0;
-		for(int i: arr) {
+
+		for (int i : arr) {
 			sum += i;
 		}
+
 		return sum;
 	}
 }
