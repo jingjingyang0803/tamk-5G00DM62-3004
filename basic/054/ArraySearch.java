@@ -34,7 +34,7 @@ class ArraySearch {
 
 	/**
 	 * Prints the elements of the given array, separated by commas.
-	 * <p>
+	 *
 	 * If the array is empty, a specific message is displayed.
 	 *
 	 * @param array The array of integers to be printed.
@@ -54,7 +54,7 @@ class ArraySearch {
 
 	/**
 	 * Returns a new array with elements in range from the original array.
-	 * <p>
+	 *
 	 * Creates and returns a new array containing the elements of the original
 	 * array that fall within the specified range (inclusive).
 	 *

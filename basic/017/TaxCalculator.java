@@ -45,7 +45,7 @@ class TaxCalculator {
 
 	/**
 	 * Calculates and prints total/work/stock earnings, taxes, and net income.
-	 * <p>
+	 *
 	 * It takes total earnings, stock earnings, and respective tax rates as
 	 * inputs.
 	 *

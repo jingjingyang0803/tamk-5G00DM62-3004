@@ -44,7 +44,7 @@ class GradeCalculator {
 
 	/**
 	 * Calculates the weighted average grade.
-	 * <p>
+	 *
 	 * The calculation is based on individual grades and their corresponding
 	 * ECTS credits.
 	 *

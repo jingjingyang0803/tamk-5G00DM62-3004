@@ -7,7 +7,7 @@ class ArrayMax {
 
 	/**
 	 * Displays maximum value of an integer array.
-	 * <p>
+	 *
 	 * Exercise: 6.3
 	 * 6.3 Function array max
 	 * <p>
@@ -32,7 +32,7 @@ class ArrayMax {
 	/**
 	 * Finds the maximum value in an array.
 	 *
-	 * This method iterates through the elements of the input array up to a
+	 * Iterates through the elements of the input array up to a
 	 * specified length and finds the maximum value.
 	 *
 	 * @param array  Input array of integers. It should not be null, and should

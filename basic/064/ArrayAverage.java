@@ -31,7 +31,7 @@ class ArrayAverage {
 
 	/**
 	 * Calculates the average value of an array.
-	 * <p>
+	 *
 	 * Sums up the elements of the input array up to a specified
 	 * length and then calculates the average.
 	 *

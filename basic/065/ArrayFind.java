@@ -40,7 +40,7 @@ class ArrayFind {
 
 	/**
 	 * Finds the first value within a specified range in an array.
-	 * <p>
+	 * 
 	 * Iterates through the elements of the input array up to a
 	 * specified length and returns the first value that falls within the given
 	 * range (inclusive of 'from' and 'to'). If no value within the range is

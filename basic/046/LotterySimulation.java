@@ -35,7 +35,7 @@ class LotterySimulation {
 
 	/**
 	 * Simulates a simple lottery system.
-	 * <p>
+	 *
 	 * The numbers and spare numbers are displayed to the screen.
 	 * It uses the dice method to generate lottery numbers.
 	 */
