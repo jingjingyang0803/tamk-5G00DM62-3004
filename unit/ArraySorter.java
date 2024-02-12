@@ -3,7 +3,6 @@
  * @version 2024.0211 (last modified)
  * @since 17.0 (miminimum Java version)
  */
-
 import java.util.Arrays;
 
 class ArraySorter {
