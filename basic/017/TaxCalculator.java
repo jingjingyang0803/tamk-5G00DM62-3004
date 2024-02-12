@@ -66,8 +66,19 @@ class TaxCalculator {
 		System.out.println("All income    : " + totalEarnings);
 		System.out.println("Work earnings : " + workEarnings);
 		System.out.println("Stock earnings: " + stockEarnings);
-		System.out.println("\nTaxes total   : " + df.format(taxes));
-		System.out.println("Net income    : " + df.format(netIncome));
+		System.out.println("\nTaxes total   : " + formatValue(taxes));
+		System.out.println("Net income    : " + formatValue(netIncome));
+	}
+
+	/**
+	 * Formats a numerical value to a specified decimal format.
+	 *
+	 * @param value The value to be formatted.
+	 * @return The formatted value as a String.
+	 */
+	public static String formatValue(double value) {
+		DecimalFormat decimalFormat = new DecimalFormat("0.00");
+		return decimalFormat.format(value);
 	}
 }
 

@@ -34,8 +34,8 @@ class ArrayFind {
 		int to = 10;
 		final int NOT_FOUND = -1;
 
-		int value = find(array, length, from, to, NOT_FOUND);
-		System.out.println("Found value = " + value);
+		int index = find(array, length, from, to, NOT_FOUND);
+		displayFoundValue(array, index);
 	}
 
 	/**
@@ -58,8 +58,8 @@ class ArrayFind {
 	 * @param to       End of the range (inclusive).
 	 * @param notFound Value to return if no value within the specified range is
 	 *                 found in the considered portion of the array.
-	 * @return The first value found in the specified range within the first
-	 * 'length' elements of the array, or 'notFound' if no
+	 * @return The index of first value found in the specified range within the first
+	 * 'length' elements of the array, or '-1' if no
 	 * such value is found. The range includes both 'from' and
 	 * 'to' values.
 	 */
@@ -69,10 +69,29 @@ class ArrayFind {
 
 		for (int i = 0; i < maxLength; i++) {
 			if (array[i] >= from && array[i] <= to) {
-				return array[i];
+				return i;
 			}
 		}
 		return notFound;
+	}
+
+	/**
+	 * Displays the result of the search operation on the console.
+	 *
+	 * This method prints a message to the console based on the result of the search.
+	 * If the index is negative, it indicates that no value was found within the specified range.
+	 * Otherwise, it prints the found value from the array.
+	 *
+	 * @param array The array that was searched.
+	 * @param index The index of the found value in the array. If the value was not found, this should be -1.
+	 */
+	public static void displayFoundValue(int[] array, int index) {
+
+		if (index < 0) {
+			System.out.println("No value was found.");
+		} else {
+			System.out.println("Found value is " + array[index]);
+		}
 	}
 }
 

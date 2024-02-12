@@ -39,7 +39,8 @@ class GradeCalculator {
 		double finalGrade = calculateWeightedAverageGrade(examEcts, examGrade,
 				designEcts, designGrade, implEcts, implGrade);
 
-		System.out.println("Final Grade = " + finalGrade);
+		String formattedGrade = formatGrade(finalGrade, "#.###");
+		System.out.println("Final Grade = " + formattedGrade);
 	}
 
 	/**
@@ -62,6 +63,18 @@ class GradeCalculator {
 		double averageGrade = (examEcts * examGrade + designEcts * designGrade
 				+ implEcts * implGrade) / (examEcts + designEcts + implEcts);
 		return averageGrade;
+	}
+
+	/**
+	 * Formats the grade to a specified decimal format.
+	 *
+	 * @param grade The grade to be formatted.
+	 * @param pattern The decimal format pattern.
+	 * @return The formatted grade as a String.
+	 */
+	public static String formatGrade(double grade, String pattern) {
+		DecimalFormat decimalFormat = new DecimalFormat(pattern);
+		return decimalFormat.format(grade);
 	}
 }
 

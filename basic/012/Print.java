@@ -29,21 +29,31 @@ class Print {
 		String lastName = "Yang"; // my last name
 		int height = 163;// my height in cm
 
-		printPersonalDetails(date, firstName, lastName, height);
+		String fullName = getFullName(firstName, lastName);
+		printPersonalDetails(date, fullName, height);
+	}
+
+	/**
+	 * Combines first and last names into a full name.
+	 *
+	 * @param firstName The first name.
+	 * @param lastName  The last name.
+	 * @return The full name.
+	 */
+	public static String getFullName(String firstName, String lastName) {
+		return firstName + " " + lastName;
 	}
 
 	/**
 	 * Prints current date, full name, and height.
 	 *
-	 * @param date      The current date.
-	 * @param firstName The first name.
-	 * @param lastName  The last name.
-	 * @param height    The height in centimeters.
+	 * @param date    The current date.
+	 * @param fullName The full name.
+	 * @param height  The height in centimeters.
 	 */
-	public static void printPersonalDetails(LocalDate date, String firstName,
-											String lastName, int height) {
+	public static void printPersonalDetails(LocalDate date, String fullName, int height) {
 		System.out.println("The date is " + date);
-		System.out.println("Hello, I'm " + firstName + " " + lastName);
+		System.out.println("Hello, I'm " + fullName);
 		System.out.println("I'm " + height + " cm tall");
 	}
 }
