@@ -5,11 +5,6 @@
  */
 class Checker {
 
-    /**
-     * The Checker class provides methods for checking various properties of
-	 * numbers and strings.
-     */
-
 	/**
 	 * Checks if a number is even.
 	 *

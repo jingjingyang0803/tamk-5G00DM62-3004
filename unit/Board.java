@@ -5,9 +5,6 @@
  */
 class Board {
 
-	/**
-	 * Represents a Board for a Tic-Tac-Toe game.
-	 */
 	private String[][] board; // 2D array to represent the board
 	private String winner; // Variable to store the winner of the game
 

@@ -6,11 +6,6 @@
 class Calculator {
 
 	/**
-	 * The Calculator class provides basic mathematical operations
-	 * such as addition, subtraction, multiplication, division, and squaring.
-	 */
-
-	/**
 	 * Adds two integers.
 	 *
 	 * @param a the first integer

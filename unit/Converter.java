@@ -6,10 +6,6 @@
 class Converter {
 
 	/**
-	 * This class provides methods for converting various units of measurement.
-	 */
-
-	/**
 	 * Converts Celsius temperatures to Fahrenheit.
 	 *
 	 * @param celsius the Celsius temperature

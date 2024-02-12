@@ -8,12 +8,6 @@ import java.util.Arrays;
 class ArraySorter {
 
 	/**
-	 * Provides methods for sorting arrays in ascending or
-	 * descending order. It also includes methods for finding the maximum and
-	 * minimum values, and calculating the sum of all values in an array.
-	 */
-
-	/**
 	 * Sorts an array in ascending order.
 	 *
 	 * @param arr The array to be sorted
