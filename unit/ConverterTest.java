@@ -8,6 +8,9 @@ import org.junit.runners.JUnit4;
 
 @RunWith(JUnit4.class)
 public class ConverterTest {
+	/**
+	 * Instance of Converter used for testing
+	 */
 	private Converter converter;
 
 	@Before
