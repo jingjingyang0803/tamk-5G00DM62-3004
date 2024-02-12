@@ -62,7 +62,9 @@ class Board {
 	public boolean isGameOver() {
 		// Check rows for a win
 		for (int i = 0; i < 3; i++) {
-			if (this.board[i][0].equals(this.board[i][1]) && this.board[i][1].equals(this.board[i][2]) && !this.board[i][0].equals("-")) {
+			if (this.board[i][0].equals(this.board[i][1]) &&
+					this.board[i][1].equals(this.board[i][2]) &&
+					!this.board[i][0].equals("-")) {
 				// Set the winner to the player with three in a row
 				this.winner = this.board[i][0];
 				return true;
@@ -70,19 +72,26 @@ class Board {
 		}
 		// Check columns for a win
 		for (int i = 0; i < 3; i++) {
-			if (this.board[0][i].equals(this.board[1][i]) && this.board[1][i].equals(this.board[2][i]) && !this.board[0][i].equals("-")) {
+			if (this.board[0][i].equals(this.board[1][i]) &&
+					this.board[1][i].equals(this.board[2][i]) &&
+					!this.board[0][i].equals("-")) {
 				// Set the winner to the player with three in a column
 				this.winner = this.board[0][i];
 				return true;
 			}
 		}
 		// Check diagonals for a win
-		if (this.board[0][0].equals(this.board[1][1]) && this.board[1][1].equals(this.board[2][2]) && !this.board[0][0].equals("-")) {
+		if (this.board[0][0].equals(this.board[1][1]) &&
+				this.board[1][1].equals(this.board[2][2]) &&
+				!this.board[0][0].equals("-")) {
 			// Set the winner to the player with three in a diagonal
 			this.winner = this.board[0][0];
 			return true;
 		}
-		if (this.board[0][2].equals(this.board[1][1]) && this.board[1][1].equals(this.board[2][0]) && !this.board[0][2].equals("-")) {
+
+		if (this.board[0][2].equals(this.board[1][1]) &&
+				this.board[1][1].equals(this.board[2][0]) &&
+				!this.board[0][2].equals("-")) {
 			// Set the winner to the player with three in a diagonal
 			this.winner = this.board[0][2];
 

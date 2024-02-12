@@ -141,7 +141,6 @@ public class RandomizerTest {
 
 			if (hasTrue && hasFalse)
 				break;
-
 		}
 
 		// Assert that both true and false were returned
