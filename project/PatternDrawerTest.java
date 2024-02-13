@@ -7,8 +7,6 @@ import org.junit.Ignore;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 
-import org.junit.Before;
-
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
@@ -33,7 +31,7 @@ public class PatternDrawerTest {
 	@Test
 	public void testDrawSquare1() {
 		String expected = "* * \n" +
-						  "* * \n";
+				"* * \n";
 		patternDrawer.drawSquare(2, '*');
 		assertEquals(expected, outContent.toString());
 		outContent.reset();
@@ -42,10 +40,10 @@ public class PatternDrawerTest {
 	@Test
 	public void testDrawSquare2() {
 		String expected = "# # # # # \n" +
-						  "# # # # # \n" +
-						  "# # # # # \n" +
-						  "# # # # # \n" +
-						  "# # # # # \n";
+				"# # # # # \n" +
+				"# # # # # \n" +
+				"# # # # # \n" +
+				"# # # # # \n";
 		patternDrawer.drawSquare(5, '#');
 		assertEquals(expected, outContent.toString());
 		outContent.reset();
@@ -54,12 +52,12 @@ public class PatternDrawerTest {
 	@Test
 	public void testDrawSquare3() {
 		String expected = "$ $ $ $ $ $ $ \n" +
-						  "$ $ $ $ $ $ $ \n" +
-						  "$ $ $ $ $ $ $ \n" +
-						  "$ $ $ $ $ $ $ \n" +
-						  "$ $ $ $ $ $ $ \n" +
-						  "$ $ $ $ $ $ $ \n" +
-						  "$ $ $ $ $ $ $ \n";
+				"$ $ $ $ $ $ $ \n" +
+				"$ $ $ $ $ $ $ \n" +
+				"$ $ $ $ $ $ $ \n" +
+				"$ $ $ $ $ $ $ \n" +
+				"$ $ $ $ $ $ $ \n" +
+				"$ $ $ $ $ $ $ \n";
 		patternDrawer.drawSquare(7, '$');
 		assertEquals(expected, outContent.toString());
 	}
@@ -67,9 +65,9 @@ public class PatternDrawerTest {
 	@Test
 	public void testDrawRectangle1() {
 		String expected = "* * * \n" +
-						  "* * * \n" +
-						  "* * * \n" +
-						  "* * * \n";
+				"* * * \n" +
+				"* * * \n" +
+				"* * * \n";
 		patternDrawer.drawRectangle(3, 4, '*');
 		assertEquals(expected, outContent.toString());
 		outContent.reset();
@@ -78,7 +76,7 @@ public class PatternDrawerTest {
 	@Test
 	public void testDrawRectangle2() {
 		String expected = "# # # # # # \n" +
-						  "# # # # # # \n";
+				"# # # # # # \n";
 		patternDrawer.drawRectangle(6, 2, '#');
 		assertEquals(expected, outContent.toString());
 		outContent.reset();
@@ -87,13 +85,13 @@ public class PatternDrawerTest {
 	@Test
 	public void testDrawRectangle3() {
 		String expected = "$ $ $ $ \n" +
-						  "$ $ $ $ \n" +
-						  "$ $ $ $ \n" +
-						  "$ $ $ $ \n" +
-						  "$ $ $ $ \n" +
-						  "$ $ $ $ \n" +
-						  "$ $ $ $ \n" +
-						  "$ $ $ $ \n";
+				"$ $ $ $ \n" +
+				"$ $ $ $ \n" +
+				"$ $ $ $ \n" +
+				"$ $ $ $ \n" +
+				"$ $ $ $ \n" +
+				"$ $ $ $ \n" +
+				"$ $ $ $ \n";
 		patternDrawer.drawRectangle(4, 8, '$');
 		assertEquals(expected, outContent.toString());
 	}
@@ -101,8 +99,8 @@ public class PatternDrawerTest {
 	@Test
 	public void testDrawTriangle1() {
 		String expected = "* \n" +
-						  "* * \n" +
-						  "* * * \n";
+				"* * \n" +
+				"* * * \n";
 		patternDrawer.drawTriangle(3, '*');
 		assertEquals(expected, outContent.toString());
 		outContent.reset();
@@ -111,10 +109,10 @@ public class PatternDrawerTest {
 	@Test
 	public void testDrawTriangle2() {
 		String expected = "# \n" +
-						  "# # \n" +
-						  "# # # \n" +
-						  "# # # # \n" +
-						  "# # # # # \n";
+				"# # \n" +
+				"# # # \n" +
+				"# # # # \n" +
+				"# # # # # \n";
 		patternDrawer.drawTriangle(5, '#');
 		assertEquals(expected, outContent.toString());
 		outContent.reset();
@@ -123,12 +121,12 @@ public class PatternDrawerTest {
 	@Test
 	public void testDrawTriangle3() {
 		String expected = "$ \n" +
-						  "$ $ \n" +
-						  "$ $ $ \n" +
-						  "$ $ $ $ \n" +
-						  "$ $ $ $ $ \n" +
-						  "$ $ $ $ $ $ \n" +
-						  "$ $ $ $ $ $ $";
+				"$ $ \n" +
+				"$ $ $ \n" +
+				"$ $ $ $ \n" +
+				"$ $ $ $ $ \n" +
+				"$ $ $ $ $ $ \n" +
+				"$ $ $ $ $ $ $";
 		patternDrawer.drawTriangle(7, '$');
 		assertEquals("$ \n$ $ \n$ $ $ \n$ $ $ $ \n$ $ $ $ $ \n$ $ $ $ $ $ \n" +
 				"$ $ $ $ $ $ $ \n", outContent.toString());
@@ -137,10 +135,10 @@ public class PatternDrawerTest {
 	@Test
 	public void testDrawDiamond1() {
 		String expected = "  *\n" +
-					      " * *\n" +
-					      "* * *\n" +
-					      " * *\n" +
-					      "  *\n";
+				" * *\n" +
+				"* * *\n" +
+				" * *\n" +
+				"  *\n";
 		patternDrawer.drawDiamond(2, '*');
 		assertEquals(expected, outContent.toString());
 		outContent.reset();
@@ -149,12 +147,12 @@ public class PatternDrawerTest {
 	@Test
 	public void testDrawDiamond2() {
 		String expected = "   #\n" +
-						  "  # #\n" +
-						  " # # #\n" +
-						  "# # # #\n" +
-						  " # # #\n" +
-						  "  # #\n" +
-						  "   #\n" ;
+				"  # #\n" +
+				" # # #\n" +
+				"# # # #\n" +
+				" # # #\n" +
+				"  # #\n" +
+				"   #\n";
 		patternDrawer.drawDiamond(3, '#');
 		assertEquals(expected, outContent.toString());
 		outContent.reset();
@@ -163,20 +161,20 @@ public class PatternDrawerTest {
 	@Test
 	public void testDrawDiamond3() {
 		String expected = "       $\n" +
-						  "      $ $\n" +
-						  "     $ $ $\n" +
-						  "    $ $ $ $\n" +
-						  "   $ $ $ $ $\n" +
-						  "  $ $ $ $ $ $\n" +
-						  " $ $ $ $ $ $ $\n" +
-						  "$ $ $ $ $ $ $ $\n" +
-						  " $ $ $ $ $ $ $\n" +
-						  "  $ $ $ $ $ $\n" +
-						  "   $ $ $ $ $\n" +
-						  "    $ $ $ $\n" +
-						  "     $ $ $\n" +
-						  "      $ $\n" +
-						  "       $\n";
+				"      $ $\n" +
+				"     $ $ $\n" +
+				"    $ $ $ $\n" +
+				"   $ $ $ $ $\n" +
+				"  $ $ $ $ $ $\n" +
+				" $ $ $ $ $ $ $\n" +
+				"$ $ $ $ $ $ $ $\n" +
+				" $ $ $ $ $ $ $\n" +
+				"  $ $ $ $ $ $\n" +
+				"   $ $ $ $ $\n" +
+				"    $ $ $ $\n" +
+				"     $ $ $\n" +
+				"      $ $\n" +
+				"       $\n";
 		patternDrawer.drawDiamond(7, '$');
 		assertEquals(expected, outContent.toString());
 	}
@@ -184,15 +182,15 @@ public class PatternDrawerTest {
 	@Test
 	public void testDrawHeart1() {
 		String expected = "  * * * * *   * * * * *   \n" +
-						  "* * * * * * * * * * * * * \n" +
-					      "* * * * * * * * * * * * * \n" +
-						  "* * * * * * * * * * * * * \n" +
-						  "  * * * * * * * * * * *   \n" +
-						  "    * * * * * * * * *     \n" +
-						  "      * * * * * * *       \n" +
-						  "        * * * * *         \n" +
-						  "          * * *           \n" +
-						  "            *             \n"; // expected string representation of the heart
+				"* * * * * * * * * * * * * \n" +
+				"* * * * * * * * * * * * * \n" +
+				"* * * * * * * * * * * * * \n" +
+				"  * * * * * * * * * * *   \n" +
+				"    * * * * * * * * *     \n" +
+				"      * * * * * * *       \n" +
+				"        * * * * *         \n" +
+				"          * * *           \n" +
+				"            *             \n"; // expected string representation of the heart
 		patternDrawer.drawHeart(3, '*');
 		assertEquals(expected, outContent.toString());
 		outContent.reset();
@@ -201,21 +199,21 @@ public class PatternDrawerTest {
 	@Test
 	public void testDrawHeart2() {
 		String expected = "    # # # # # # #       # # # # # # #     \n" +
-						  "  # # # # # # # # #   # # # # # # # # #   \n" +
-						  "# # # # # # # # # # # # # # # # # # # # # \n" +
-						  "# # # # # # # # # # # # # # # # # # # # # \n" +
-						  "# # # # # # # # # # # # # # # # # # # # # \n" +
-						  "# # # # # # # # # # # # # # # # # # # # # \n" +
-						  "  # # # # # # # # # # # # # # # # # # #   \n" +
-						  "    # # # # # # # # # # # # # # # # #     \n" +
-						  "      # # # # # # # # # # # # # # #       \n" +
-						  "        # # # # # # # # # # # # #         \n" +
-						  "          # # # # # # # # # # #           \n" +
-						  "            # # # # # # # # #             \n" +
-						  "              # # # # # # #               \n" +
-						  "                # # # # #                 \n" +
-						  "                  # # #                   \n" +
-						  "                    #                     \n";
+				"  # # # # # # # # #   # # # # # # # # #   \n" +
+				"# # # # # # # # # # # # # # # # # # # # # \n" +
+				"# # # # # # # # # # # # # # # # # # # # # \n" +
+				"# # # # # # # # # # # # # # # # # # # # # \n" +
+				"# # # # # # # # # # # # # # # # # # # # # \n" +
+				"  # # # # # # # # # # # # # # # # # # #   \n" +
+				"    # # # # # # # # # # # # # # # # #     \n" +
+				"      # # # # # # # # # # # # # # #       \n" +
+				"        # # # # # # # # # # # # #         \n" +
+				"          # # # # # # # # # # #           \n" +
+				"            # # # # # # # # #             \n" +
+				"              # # # # # # #               \n" +
+				"                # # # # #                 \n" +
+				"                  # # #                   \n" +
+				"                    #                     \n";
 		patternDrawer.drawHeart(5, '#');
 		assertEquals(expected, outContent.toString());
 		outContent.reset();
@@ -224,27 +222,27 @@ public class PatternDrawerTest {
 	@Test
 	public void testDrawHeart3() {
 		String expected = "        $ $ $ $ $ $ $               $ $ $ $ $ $ $         \n" +
-						  "    $ $ $ $ $ $ $ $ $ $ $       $ $ $ $ $ $ $ $ $ $ $     \n" +
-						  "  $ $ $ $ $ $ $ $ $ $ $ $ $   $ $ $ $ $ $ $ $ $ $ $ $ $   \n" +
-						  "  $ $ $ $ $ $ $ $ $ $ $ $ $   $ $ $ $ $ $ $ $ $ $ $ $ $   \n" +
-						  "$ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ \n" +
-						  "$ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ \n" +
-						  "$ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ \n" +
-						  "$ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ \n" +
-						  "  $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $   \n" +
-						  "    $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $     \n" +
-						  "      $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $       \n" +
-						  "        $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $         \n" +
-						  "          $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $           \n" +
-						  "            $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $             \n" +
-						  "              $ $ $ $ $ $ $ $ $ $ $ $ $ $ $               \n" +
-						  "                $ $ $ $ $ $ $ $ $ $ $ $ $                 \n" +
-						  "                  $ $ $ $ $ $ $ $ $ $ $                   \n" +
-						  "                    $ $ $ $ $ $ $ $ $                     \n" +
-						  "                      $ $ $ $ $ $ $                       \n" +
-						  "                        $ $ $ $ $                         \n" +
-						  "                          $ $ $                           \n" +
-						  "                            $                             \n";
+				"    $ $ $ $ $ $ $ $ $ $ $       $ $ $ $ $ $ $ $ $ $ $     \n" +
+				"  $ $ $ $ $ $ $ $ $ $ $ $ $   $ $ $ $ $ $ $ $ $ $ $ $ $   \n" +
+				"  $ $ $ $ $ $ $ $ $ $ $ $ $   $ $ $ $ $ $ $ $ $ $ $ $ $   \n" +
+				"$ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ \n" +
+				"$ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ \n" +
+				"$ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ \n" +
+				"$ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ \n" +
+				"  $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $   \n" +
+				"    $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $     \n" +
+				"      $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $       \n" +
+				"        $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $         \n" +
+				"          $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $           \n" +
+				"            $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $             \n" +
+				"              $ $ $ $ $ $ $ $ $ $ $ $ $ $ $               \n" +
+				"                $ $ $ $ $ $ $ $ $ $ $ $ $                 \n" +
+				"                  $ $ $ $ $ $ $ $ $ $ $                   \n" +
+				"                    $ $ $ $ $ $ $ $ $                     \n" +
+				"                      $ $ $ $ $ $ $                       \n" +
+				"                        $ $ $ $ $                         \n" +
+				"                          $ $ $                           \n" +
+				"                            $                             \n";
 		patternDrawer.drawHeart(7, '$');
 		assertEquals(expected, outContent.toString());
 	}
