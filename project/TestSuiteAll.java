@@ -21,7 +21,11 @@ import org.junit.runners.Suite.SuiteClasses;
 		ConverterTest.class,
 		ArraySorterTest.class,
 		RandomizerTest.class,
-		BoardTest.class
+		BoardTest.class,
+		PlayerProfileTest.class,
+		PatternDrawerTest.class,
+		SequenceGeneratorTest.class,
+		BankAccountTest.class
 })
 
 public class TestSuiteAll {
