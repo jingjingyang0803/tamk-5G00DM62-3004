@@ -22,9 +22,19 @@ public class PatternDrawerTest {
 	private final ByteArrayOutputStream outContent =
 			new ByteArrayOutputStream();
 
-	@Before // This method will run before each test
+	private PrintStream originalOut; // original System.out
+
+	/**
+	 * Sets up the streams for capturing System.out output.
+	 *
+	 * Redirects the standard output (System.out) to a custom PrintStream,
+	 * allowing the test to capture and analyze the output produced during its execution.
+	 * The original System.out is stored before redirection to be restored later.
+	 */
+	@Before
 	public void setUpStreams() {
-		// Redirect System.out to the ByteArrayOutputStream
+		originalOut = System.out; // Save the original System.out
+		// Set up the new PrintStream for capturing output
 		System.setOut(new PrintStream(outContent));
 	}
 
@@ -246,9 +256,16 @@ public class PatternDrawerTest {
 		patternDrawer.drawHeart(7, '$');
 		assertEquals(expected, outContent.toString());
 	}
-
-	@After // This method will run after each test
+	
+	/**
+	 * Restores the standard output stream (System.out) to its original state.
+	 *
+	 * Ensures that System.out is reset to the standard console output,
+	 * reverting the redirection done in setUpStreams.
+	 */
+	@After
 	public void restoreStreams() {
-		System.setOut(System.out); // Restore System.out to its original state
+		System.setOut(originalOut); // Restore System.out to the original PrintStream
 	}
+
 }
