@@ -11,7 +11,7 @@ public class BankAccount {
 	/**
 	 * Creates a BankAccount class constructor.
 	 *
-	 * @param ownerName The name of the account owner.
+	 * @param ownerName    The name of the account owner.
 	 * @param interestRate The interest rate for the account.
 	 */
 	public BankAccount(String ownerName, double interestRate) {
@@ -24,9 +24,10 @@ public class BankAccount {
 	 * Deposits money into the account.
 	 *
 	 * @param amount The amount to be deposited.
+	 * @throws IllegalArgumentException if deposit amount is negeative
 	 */
 	public void deposit(double amount) {
-		if(amount > 0) {
+		if (amount > 0) {
 			balance += amount;
 		} else {
 			throw new IllegalArgumentException("Cannot deposit negative amount");
@@ -37,9 +38,10 @@ public class BankAccount {
 	 * Withdraws money from the account.
 	 *
 	 * @param amount The amount to be withdrawn.
+	 * @throws IllegalArgumentException if withdraw amount is bigger than balance
 	 */
 	public void withdraw(double amount) {
-		if(balance >= amount) {
+		if (balance >= amount) {
 			balance -= amount;
 		} else {
 			throw new IllegalArgumentException("Insufficient balance");
@@ -67,9 +69,10 @@ public class BankAccount {
 	 * Sets the interest rate of the account.
 	 *
 	 * @param interestRate The interest rate to be set.
+	 * @throws IllegalArgumentException if interest rate is negeative
 	 */
 	public void setInterestRate(double interestRate) {
-		if(interestRate >= 0) {
+		if (interestRate >= 0) {
 			this.interestRate = interestRate;
 		} else {
 			throw new IllegalArgumentException("Cannot set negative interest rate");
