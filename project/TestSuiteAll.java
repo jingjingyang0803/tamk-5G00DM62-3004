@@ -16,16 +16,16 @@ import org.junit.runners.Suite.SuiteClasses;
 @RunWith(Suite.class)
 
 @SuiteClasses({
-		CalculatorTest.class,
+		CalculatorTest.class, // includes 1 tests dealing with exceptions
 		CheckerTest.class,
 		ConverterTest.class,
 		ArraySorterTest.class,
-		RandomizerTest.class,
+		RandomizerTest.class, // includes 1 tests dealing with exceptions
 		BoardTest.class,
 		PlayerProfileTest.class,
 		PatternDrawerTest.class,
 		SequenceGeneratorTest.class,
-		BankAccountTest.class
+		BankAccountTest.class // includes 3 tests dealing with exceptions
 })
 
 public class TestSuiteAll {
