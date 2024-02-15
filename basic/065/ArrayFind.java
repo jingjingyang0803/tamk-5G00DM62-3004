@@ -41,11 +41,10 @@ class ArrayFind {
 	/**
 	 * Finds the first value within a specified range in an array.
 	 * 
-	 * Iterates through the elements of the input array up to a
-	 * specified length and returns the first value that falls within the given
-	 * range (inclusive of 'from' and 'to'). If no value within the range is
-	 * found in the considered portion of the array, a specified 'notFound'
-	 * value is returned.
+	 * Iterates through the elements of the input array up to a specified length
+	 * and returns the first value that falls within the given range (inclusive
+	 * of 'from' and 'to'). If no value within the range is found in the
+	 * considered portion of the array, a specified 'notFound' value is returned.
 	 *
 	 * @param array    Input array of integers. It should not be null, and
 	 *                 should have at least one element.

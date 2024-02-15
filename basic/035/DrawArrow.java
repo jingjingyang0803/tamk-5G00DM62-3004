@@ -57,7 +57,6 @@ class DrawArrow {
 			System.out.println(); // Move to the next line
 		}
 
-
 		// bottom half of the arrow
 		for (int i = size / 2; i >= 1; i--) {
 			// Inner loop for spaces

@@ -42,7 +42,6 @@ public class PatternDrawer {
 		}
 	}
 
-
 	/**
 	 * Draws a right-angled triangle.
 	 *
@@ -110,7 +109,6 @@ public class PatternDrawer {
 		}
 	}
 
-
 	/**
 	 * Draws a heart shape.
 	 *
@@ -135,6 +133,5 @@ public class PatternDrawer {
 
 			System.out.println();
 		}
-
 	}
 }
