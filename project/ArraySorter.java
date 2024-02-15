@@ -7,80 +7,80 @@ import java.util.Arrays;
 
 class ArraySorter {
 
-	/**
-	 * Sorts an array in ascending order.
-	 *
-	 * @param arr The array to be sorted
-	 * @return The sorted array
-	 */
-	public int[] sortAscending(int[] arr) {
-		Arrays.sort(arr);
-		return arr;
-	}
+    /**
+     * Sorts an array in ascending order.
+     *
+     * @param arr The array to be sorted
+     * @return The sorted array
+     */
+    public int[] sortAscending(int[] arr) {
+        Arrays.sort(arr);
+        return arr;
+    }
 
-	/**
-	 * Sorts an array in descending order.
-	 *
-	 * @param arr The array to be sorted
-	 * @return The sorted array
-	 */
-	public int[] sortDescending(int[] arr) {
-		Arrays.sort(arr);
+    /**
+     * Sorts an array in descending order.
+     *
+     * @param arr The array to be sorted
+     * @return The sorted array
+     */
+    public int[] sortDescending(int[] arr) {
+        Arrays.sort(arr);
 
-		for (int i = 0; i < arr.length / 2; i++) {
-			int temp = arr[i];
-			arr[i] = arr[arr.length - i - 1];
-			arr[arr.length - i - 1] = temp;
-		}
+        for (int i = 0; i < arr.length / 2; i++) {
+            int temp = arr[i];
+            arr[i] = arr[arr.length - i - 1];
+            arr[arr.length - i - 1] = temp;
+        }
 
-		return arr;
-	}
+        return arr;
+    }
 
-	/**
-	 * Finds the maximum value in an array.
-	 *
-	 * @param arr The array to be searched
-	 * @return The maximum value
-	 */
-	public int findMax(int[] arr) {
-		int maxVal = arr[0];
+    /**
+     * Finds the maximum value in an array.
+     *
+     * @param arr The array to be searched
+     * @return The maximum value
+     */
+    public int findMax(int[] arr) {
+        int maxVal = arr[0];
 
-		for (int i : arr) {
-			if (i > maxVal) maxVal = i;
-		}
+        for (int i : arr) {
+            if (i > maxVal) maxVal = i;
+        }
 
-		return maxVal;
-	}
+        return maxVal;
+    }
 
-	/**
-	 * Finds the minimum value in an array.
-	 *
-	 * @param arr The array to be searched
-	 * @return The minimum value
-	 */
-	public int findMin(int[] arr) {
-		int minVal = arr[0];
+    /**
+     * Finds the minimum value in an array.
+     *
+     * @param arr The array to be searched
+     * @return The minimum value
+     */
+    public int findMin(int[] arr) {
+        int minVal = arr[0];
 
-		for (int i : arr) {
-			if (i < minVal) minVal = i;
-		}
+        for (int i : arr) {
+            if (i < minVal) minVal = i;
+        }
 
-		return minVal;
-	}
+        return minVal;
+    }
 
-	/**
-	 * Calculates the sum of all values in an array.
-	 *
-	 * @param arr The array to be summed
-	 * @return The sum of all values
-	 */
-	public int findSum(int[] arr) {
-		int sum = 0;
+    /**
+     * Calculates the sum of all values in an array.
+     *
+     * @param arr The array to be summed
+     * @return The sum of all values
+     */
+    public int findSum(int[] arr) {
+        int sum = 0;
 
-		for (int i : arr) {
-			sum += i;
-		}
+        for (int i : arr) {
+            sum += i;
+        }
 
-		return sum;
-	}
+        return sum;
+    }
 }
