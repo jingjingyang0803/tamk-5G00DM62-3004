@@ -5,16 +5,16 @@
  */
 public class Main {
 
-	/**
-	 * Serves as the entry point of the application.
-	 *
-	 * @param args Command line arguments passed to the application.
-	 */
-	public static void main(String[] args) {
-		System.out.println("Hello World!");
-		System.out.println();
+    /**
+     * Serves as the entry point of the application.
+     *
+     * @param args Command line arguments passed to the application.
+     */
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+        System.out.println();
 
-		PatternDrawer drawer = new PatternDrawer();
-		drawer.drawHeart(4,'*');
-	}
+        PatternDrawer drawer = new PatternDrawer();
+        drawer.drawHeart(4,'*');
+    }
 }
