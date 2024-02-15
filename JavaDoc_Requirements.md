@@ -48,3 +48,5 @@
 ### **Conclusion:**
 
 Adhering to these JavaDoc and formatting standards is crucial for the maintainability, readability, and overall quality of Java code. Consistency across the codebase makes it easier for developers to understand and modify the code, especially in team environments. Regular code reviews and adherence to a defined coding standard are good practices to ensure these standards are met.
+
+see more: https://bit.ly/3ew5pMG
