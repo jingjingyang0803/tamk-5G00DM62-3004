@@ -11,9 +11,10 @@ public class Catalogue {
 
     /**
      * Represents the collection of books in the library's catalogue.
-     * 
+     *
      * Stores all the books that are currently available in the library.
-     * It is used for adding, removing, searching, and listing books within the catalogue.
+     * It is used for adding, removing, searching, and listing books within the
+     * catalogue.
      */
     private ArrayList<Book> books;
 

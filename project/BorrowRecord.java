@@ -3,7 +3,6 @@
  * @version 2024.0219
  * @since 17.0
  */
-
 import java.util.ArrayList;
 
 public class BorrowRecord {
