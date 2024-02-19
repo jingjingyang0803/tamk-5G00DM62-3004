@@ -6,7 +6,7 @@
 import java.util.ArrayList;
 
 public class BorrowRecord {
-    
+
     /**
      * The user who borrowed the book.
      */
