@@ -9,24 +9,28 @@ public class User {
 
     /**
      * The name of the user.
+     *
      * Used for identification and display purposes within the library system.
      */
     private String name;
 
     /**
      * The email address of the user.
+     *
      * Used as a unique identifier and for communication purposes.
      */
     private String email;
 
     /**
      * The password for the user's account.
+     *
      * Used for authentication purposes.
      */
     private String password;
 
     /**
      * A list of books currently borrowed by the user.
+     *
      * This list tracks the user's active book borrowings.
      */
     private ArrayList<Book> borrowedBooks = new ArrayList<>();

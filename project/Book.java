@@ -7,18 +7,21 @@ public class Book {
 
     /**
      * The title of the book.
+     *
      * Used as the primary identifier and descriptor for the book.
      */
     private String title;
 
     /**
      * The author of the book.
+     *
      * Indicates who wrote the book and is used for searching and categorization.
      */
     private String author;
 
     /**
      * The International Standard Book Number (ISBN) of the book.
+     *
      * A unique identifier for the book used globally for identification and
      * inventory purposes.
      */

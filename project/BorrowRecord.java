@@ -3,6 +3,7 @@
  * @version 2024.0219
  * @since 17.0
  */
+
 import java.util.ArrayList;
 
 public class BorrowRecord {
@@ -39,7 +40,7 @@ public class BorrowRecord {
      * @param book The book that is being borrowed. Cannot be null.
      * @throws IllegalArgumentException if either the user or book is null.
      */
-    public void createRecord(User user, Book book){
+    public void createRecord(User user, Book book) {
         if (user == null || book == null) {
             throw new IllegalArgumentException("User and book cannot be null");
         }
@@ -50,7 +51,7 @@ public class BorrowRecord {
     /**
      * Deletes the borrow record, removing the associated user and book details.
      */
-    public void deleteRecord(){
+    public void deleteRecord() {
         this.user = null;
         this.book = null;
     }
@@ -62,7 +63,7 @@ public class BorrowRecord {
      * @param book The new book for the record. Cannot be null.
      * @throws IllegalArgumentException if either the user or book is null.
      */
-    public void updateRecord(User user, Book book){
+    public void updateRecord(User user, Book book) {
         if (user == null || book == null) {
             throw new IllegalArgumentException("User and book cannot be null");
         }
@@ -76,7 +77,7 @@ public class BorrowRecord {
      * @return A string representation of the borrow record, including user and
      * book details.
      */
-    public String getRecord(){
+    public String getRecord() {
         if (this.user == null || this.book == null) {
             return "Record is empty or incomplete";
         }
@@ -90,11 +91,12 @@ public class BorrowRecord {
      *                Cannot be null.
      * @throws IllegalArgumentException if the records list is null.
      */
-    public void listAllRecords(ArrayList<BorrowRecord> records){
+    public void listAllRecords(ArrayList<BorrowRecord> records) {
         if (records == null) {
             throw new IllegalArgumentException("Records list cannot be null");
         }
-        for(BorrowRecord record : records){
+
+        for (BorrowRecord record : records) {
             System.out.println(record.getRecord());
         }
     }

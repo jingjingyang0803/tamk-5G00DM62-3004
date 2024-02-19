@@ -6,7 +6,7 @@
 import java.util.ArrayList;
 
 public class Library {
-    
+
     /**
      * A collection of books available in the library.
      */
