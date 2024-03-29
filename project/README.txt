@@ -2,16 +2,30 @@
 
 1. Navigate to the project directory.
 
-2. Compile the source code and tests:
+2. Compile the source code and tests (all .java files):
         javac -cp .:junit-4.13.2.jar:hamcrest-core-1.3.jar *.java
 
 3. Run the test suite:
         java -cp .:junit-4.13.2.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore TestSuiteAll
 
+4. Run individual test class:
     To run an individual test class, such as **`CalculatorTest`**, use:
         java -cp .:junit-4.13.2.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore CalculatorTest
 
-    **If you are on Windows, replace `:` with `;`.**
+5. Output logs
+    To generate a detailed output log of all the tests(150 in total), redirect the output to a file named **`OUTPUT.txt`** with the following command:
+        java -cp .:junit-4.13.2.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore TestSuiteAll > OUTPUT.txt
+
+    Additionally, if running the test suite using the custom **`main`** method in **`TestSuiteAll`** that adds a **`TestListener`** for detailed logging is desired, direct this output to **`OUTPUT.txt`** like so:
+        java -cp ".:junit-4.13.2.jar:hamcrest-core-1.3.jar" TestSuiteAll >> OUTPUT.txt
+
+
+!!!**If you are on Windows, replace `:` with `;`.**
+
+
+
+
+
 
 ## Description
 

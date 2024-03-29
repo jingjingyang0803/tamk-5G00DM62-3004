@@ -12,6 +12,7 @@ If you are on Windows, replace : with ;.
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
+import org.junit.runner.JUnitCore;
 
 @RunWith(Suite.class)
 
@@ -29,6 +30,9 @@ import org.junit.runners.Suite.SuiteClasses;
 })
 
 public class TestSuiteAll {
-	// the class remains empty,
-	// used only as a holder for the above annotations
+	public static void main(String[] args) {
+		JUnitCore junit = new JUnitCore();
+		junit.addListener(new TestListener());
+		junit.run(TestSuiteAll.class);
+	}
 }

@@ -1,9 +1,462 @@
 JUnit version 4.13.2
 ......................................................................................................................................................
-Time: 0,019
+Time: 0,017
 
 OK (150 tests)
 
-Test run started
-Test run finished
+================Test run started=======================
+
+Started: testAdd1(CalculatorTest)
+Finished: testAdd1(CalculatorTest)
+---------------------------------------------------
+Started: testAdd2(CalculatorTest)
+Finished: testAdd2(CalculatorTest)
+---------------------------------------------------
+Started: testAdd3(CalculatorTest)
+Finished: testAdd3(CalculatorTest)
+---------------------------------------------------
+Started: testMultiply1(CalculatorTest)
+Finished: testMultiply1(CalculatorTest)
+---------------------------------------------------
+Started: testMultiply2(CalculatorTest)
+Finished: testMultiply2(CalculatorTest)
+---------------------------------------------------
+Started: testMultiply3(CalculatorTest)
+Finished: testMultiply3(CalculatorTest)
+---------------------------------------------------
+Started: testSubtract1(CalculatorTest)
+Finished: testSubtract1(CalculatorTest)
+---------------------------------------------------
+Started: testSubtract2(CalculatorTest)
+Finished: testSubtract2(CalculatorTest)
+---------------------------------------------------
+Started: testSubtract3(CalculatorTest)
+Finished: testSubtract3(CalculatorTest)
+---------------------------------------------------
+Started: testDivide1(CalculatorTest)
+Finished: testDivide1(CalculatorTest)
+---------------------------------------------------
+Started: testDivide2(CalculatorTest)
+Finished: testDivide2(CalculatorTest)
+---------------------------------------------------
+Started: testDivide3(CalculatorTest)
+Finished: testDivide3(CalculatorTest)
+---------------------------------------------------
+Started: testSquare1(CalculatorTest)
+Finished: testSquare1(CalculatorTest)
+---------------------------------------------------
+Started: testSquare2(CalculatorTest)
+Finished: testSquare2(CalculatorTest)
+---------------------------------------------------
+Started: testSquare3(CalculatorTest)
+Finished: testSquare3(CalculatorTest)
+---------------------------------------------------
+Started: testIsPositive1(CheckerTest)
+Finished: testIsPositive1(CheckerTest)
+---------------------------------------------------
+Started: testIsPositive2(CheckerTest)
+Finished: testIsPositive2(CheckerTest)
+---------------------------------------------------
+Started: testIsPositive3(CheckerTest)
+Finished: testIsPositive3(CheckerTest)
+---------------------------------------------------
+Started: testIsPrime1(CheckerTest)
+Finished: testIsPrime1(CheckerTest)
+---------------------------------------------------
+Started: testIsPrime2(CheckerTest)
+Finished: testIsPrime2(CheckerTest)
+---------------------------------------------------
+Started: testIsPrime3(CheckerTest)
+Finished: testIsPrime3(CheckerTest)
+---------------------------------------------------
+Started: testIsOdd1(CheckerTest)
+Finished: testIsOdd1(CheckerTest)
+---------------------------------------------------
+Started: testIsOdd2(CheckerTest)
+Finished: testIsOdd2(CheckerTest)
+---------------------------------------------------
+Started: testIsOdd3(CheckerTest)
+Finished: testIsOdd3(CheckerTest)
+---------------------------------------------------
+Started: testIsEven1(CheckerTest)
+Finished: testIsEven1(CheckerTest)
+---------------------------------------------------
+Started: testIsEven2(CheckerTest)
+Finished: testIsEven2(CheckerTest)
+---------------------------------------------------
+Started: testIsEven3(CheckerTest)
+Finished: testIsEven3(CheckerTest)
+---------------------------------------------------
+Started: testIsPalindrome1(CheckerTest)
+Finished: testIsPalindrome1(CheckerTest)
+---------------------------------------------------
+Started: testIsPalindrome2(CheckerTest)
+Finished: testIsPalindrome2(CheckerTest)
+---------------------------------------------------
+Started: testIsPalindrome3(CheckerTest)
+Finished: testIsPalindrome3(CheckerTest)
+---------------------------------------------------
+Started: testCelsiusToFahrenheit1(ConverterTest)
+Finished: testCelsiusToFahrenheit1(ConverterTest)
+---------------------------------------------------
+Started: testCelsiusToFahrenheit2(ConverterTest)
+Finished: testCelsiusToFahrenheit2(ConverterTest)
+---------------------------------------------------
+Started: testCelsiusToFahrenheit3(ConverterTest)
+Finished: testCelsiusToFahrenheit3(ConverterTest)
+---------------------------------------------------
+Started: testPoundsToKilograms1(ConverterTest)
+Finished: testPoundsToKilograms1(ConverterTest)
+---------------------------------------------------
+Started: testPoundsToKilograms2(ConverterTest)
+Finished: testPoundsToKilograms2(ConverterTest)
+---------------------------------------------------
+Started: testPoundsToKilograms3(ConverterTest)
+Finished: testPoundsToKilograms3(ConverterTest)
+---------------------------------------------------
+Started: testMilesToKilometers1(ConverterTest)
+Finished: testMilesToKilometers1(ConverterTest)
+---------------------------------------------------
+Started: testMilesToKilometers2(ConverterTest)
+Finished: testMilesToKilometers2(ConverterTest)
+---------------------------------------------------
+Started: testMilesToKilometers3(ConverterTest)
+Finished: testMilesToKilometers3(ConverterTest)
+---------------------------------------------------
+Started: testFahrenheitToCelsius1(ConverterTest)
+Finished: testFahrenheitToCelsius1(ConverterTest)
+---------------------------------------------------
+Started: testFahrenheitToCelsius2(ConverterTest)
+Finished: testFahrenheitToCelsius2(ConverterTest)
+---------------------------------------------------
+Started: testFahrenheitToCelsius3(ConverterTest)
+Finished: testFahrenheitToCelsius3(ConverterTest)
+---------------------------------------------------
+Started: testKilometersToMiles1(ConverterTest)
+Finished: testKilometersToMiles1(ConverterTest)
+---------------------------------------------------
+Started: testKilometersToMiles2(ConverterTest)
+Finished: testKilometersToMiles2(ConverterTest)
+---------------------------------------------------
+Started: testKilometersToMiles3(ConverterTest)
+Finished: testKilometersToMiles3(ConverterTest)
+---------------------------------------------------
+Started: testSortAscending1(ArraySorterTest)
+Finished: testSortAscending1(ArraySorterTest)
+---------------------------------------------------
+Started: testSortAscending2(ArraySorterTest)
+Finished: testSortAscending2(ArraySorterTest)
+---------------------------------------------------
+Started: testSortAscending3(ArraySorterTest)
+Finished: testSortAscending3(ArraySorterTest)
+---------------------------------------------------
+Started: testFindMax1(ArraySorterTest)
+Finished: testFindMax1(ArraySorterTest)
+---------------------------------------------------
+Started: testFindMax2(ArraySorterTest)
+Finished: testFindMax2(ArraySorterTest)
+---------------------------------------------------
+Started: testFindMax3(ArraySorterTest)
+Finished: testFindMax3(ArraySorterTest)
+---------------------------------------------------
+Started: testFindMin1(ArraySorterTest)
+Finished: testFindMin1(ArraySorterTest)
+---------------------------------------------------
+Started: testFindMin2(ArraySorterTest)
+Finished: testFindMin2(ArraySorterTest)
+---------------------------------------------------
+Started: testFindMin3(ArraySorterTest)
+Finished: testFindMin3(ArraySorterTest)
+---------------------------------------------------
+Started: testFindSum1(ArraySorterTest)
+Finished: testFindSum1(ArraySorterTest)
+---------------------------------------------------
+Started: testFindSum2(ArraySorterTest)
+Finished: testFindSum2(ArraySorterTest)
+---------------------------------------------------
+Started: testFindSum3(ArraySorterTest)
+Finished: testFindSum3(ArraySorterTest)
+---------------------------------------------------
+Started: testSortDescending1(ArraySorterTest)
+Finished: testSortDescending1(ArraySorterTest)
+---------------------------------------------------
+Started: testSortDescending2(ArraySorterTest)
+Finished: testSortDescending2(ArraySorterTest)
+---------------------------------------------------
+Started: testSortDescending3(ArraySorterTest)
+Finished: testSortDescending3(ArraySorterTest)
+---------------------------------------------------
+Started: testGetRandomBooleanBias(RandomizerTest)
+Finished: testGetRandomBooleanBias(RandomizerTest)
+---------------------------------------------------
+Started: testGetRandomNumberArray1(RandomizerTest)
+Finished: testGetRandomNumberArray1(RandomizerTest)
+---------------------------------------------------
+Started: testGetRandomNumberArray2(RandomizerTest)
+Finished: testGetRandomNumberArray2(RandomizerTest)
+---------------------------------------------------
+Started: testGetRandomNumberArray3(RandomizerTest)
+Finished: testGetRandomNumberArray3(RandomizerTest)
+---------------------------------------------------
+Started: testGetRandomElementFromList1(RandomizerTest)
+Finished: testGetRandomElementFromList1(RandomizerTest)
+---------------------------------------------------
+Started: testGetRandomElementFromList2(RandomizerTest)
+Finished: testGetRandomElementFromList2(RandomizerTest)
+---------------------------------------------------
+Started: testGetRandomElementFromList3(RandomizerTest)
+Finished: testGetRandomElementFromList3(RandomizerTest)
+---------------------------------------------------
+Started: testGetRandomNumberInRange1(RandomizerTest)
+Finished: testGetRandomNumberInRange1(RandomizerTest)
+---------------------------------------------------
+Started: testGetRandomNumberInRange2(RandomizerTest)
+Finished: testGetRandomNumberInRange2(RandomizerTest)
+---------------------------------------------------
+Started: testGetRandomNumberInRange3(RandomizerTest)
+Finished: testGetRandomNumberInRange3(RandomizerTest)
+---------------------------------------------------
+Started: testGetRandomBoolean1(RandomizerTest)
+Finished: testGetRandomBoolean1(RandomizerTest)
+---------------------------------------------------
+Started: testGetRandomBooleanRandomness(RandomizerTest)
+Finished: testGetRandomBooleanRandomness(RandomizerTest)
+---------------------------------------------------
+Started: testGetRandomNumberList1(RandomizerTest)
+Finished: testGetRandomNumberList1(RandomizerTest)
+---------------------------------------------------
+Started: testGetRandomNumberList2(RandomizerTest)
+Finished: testGetRandomNumberList2(RandomizerTest)
+---------------------------------------------------
+Started: testGetRandomNumberList3(RandomizerTest)
+Finished: testGetRandomNumberList3(RandomizerTest)
+---------------------------------------------------
+Started: testIsValidMove1(BoardTest)
+Finished: testIsValidMove1(BoardTest)
+---------------------------------------------------
+Started: testIsValidMove2(BoardTest)
+Finished: testIsValidMove2(BoardTest)
+---------------------------------------------------
+Started: testIsValidMove3(BoardTest)
+Finished: testIsValidMove3(BoardTest)
+---------------------------------------------------
+Started: testInitializeBoard1(BoardTest)
+Finished: testInitializeBoard1(BoardTest)
+---------------------------------------------------
+Started: testInitializeBoard2(BoardTest)
+Finished: testInitializeBoard2(BoardTest)
+---------------------------------------------------
+Started: testInitializeBoard3(BoardTest)
+Finished: testInitializeBoard3(BoardTest)
+---------------------------------------------------
+Started: testIsGameOver1(BoardTest)
+Finished: testIsGameOver1(BoardTest)
+---------------------------------------------------
+Started: testIsGameOver2(BoardTest)
+Finished: testIsGameOver2(BoardTest)
+---------------------------------------------------
+Started: testIsGameOver3(BoardTest)
+Finished: testIsGameOver3(BoardTest)
+---------------------------------------------------
+Started: testGetWinner1(BoardTest)
+Finished: testGetWinner1(BoardTest)
+---------------------------------------------------
+Started: testGetWinner2(BoardTest)
+Finished: testGetWinner2(BoardTest)
+---------------------------------------------------
+Started: testGetWinner3(BoardTest)
+Finished: testGetWinner3(BoardTest)
+---------------------------------------------------
+Started: testMakeMove1(BoardTest)
+Finished: testMakeMove1(BoardTest)
+---------------------------------------------------
+Started: testMakeMove2(BoardTest)
+Finished: testMakeMove2(BoardTest)
+---------------------------------------------------
+Started: testMakeMove3(BoardTest)
+Finished: testMakeMove3(BoardTest)
+---------------------------------------------------
+Started: testGetGamesWonAfterIncrement(PlayerProfileTest)
+Finished: testGetGamesWonAfterIncrement(PlayerProfileTest)
+---------------------------------------------------
+Started: testIncrementGamesPlayed(PlayerProfileTest)
+Finished: testIncrementGamesPlayed(PlayerProfileTest)
+---------------------------------------------------
+Started: testGetGamesWonAfterMultipleIncrement(PlayerProfileTest)
+Finished: testGetGamesWonAfterMultipleIncrement(PlayerProfileTest)
+---------------------------------------------------
+Started: testIncrementGamesWon(PlayerProfileTest)
+Finished: testIncrementGamesWon(PlayerProfileTest)
+---------------------------------------------------
+Started: testGetGamesWon(PlayerProfileTest)
+Finished: testGetGamesWon(PlayerProfileTest)
+---------------------------------------------------
+Started: testGetUsernameAfterSecondChange(PlayerProfileTest)
+Finished: testGetUsernameAfterSecondChange(PlayerProfileTest)
+---------------------------------------------------
+Started: testGetUsernameAfterChange(PlayerProfileTest)
+Finished: testGetUsernameAfterChange(PlayerProfileTest)
+---------------------------------------------------
+Started: testIncrementGamesWonTwice(PlayerProfileTest)
+Finished: testIncrementGamesWonTwice(PlayerProfileTest)
+---------------------------------------------------
+Started: testIncrementGamesWonThrice(PlayerProfileTest)
+Finished: testIncrementGamesWonThrice(PlayerProfileTest)
+---------------------------------------------------
+Started: testGetGamesPlayedAfterIncrement(PlayerProfileTest)
+Finished: testGetGamesPlayedAfterIncrement(PlayerProfileTest)
+---------------------------------------------------
+Started: testGetGamesPlayedAfterMultipleIncrement(PlayerProfileTest)
+Finished: testGetGamesPlayedAfterMultipleIncrement(PlayerProfileTest)
+---------------------------------------------------
+Started: testGetUsername(PlayerProfileTest)
+Finished: testGetUsername(PlayerProfileTest)
+---------------------------------------------------
+Started: testIncrementGamesPlayedThrice(PlayerProfileTest)
+Finished: testIncrementGamesPlayedThrice(PlayerProfileTest)
+---------------------------------------------------
+Started: testIncrementGamesPlayedTwice(PlayerProfileTest)
+Finished: testIncrementGamesPlayedTwice(PlayerProfileTest)
+---------------------------------------------------
+Started: testGetGamesPlayed(PlayerProfileTest)
+Finished: testGetGamesPlayed(PlayerProfileTest)
+---------------------------------------------------
+Started: testDrawHeart1(PatternDrawerTest)
+Finished: testDrawHeart1(PatternDrawerTest)
+---------------------------------------------------
+Started: testDrawHeart2(PatternDrawerTest)
+Finished: testDrawHeart2(PatternDrawerTest)
+---------------------------------------------------
+Started: testDrawHeart3(PatternDrawerTest)
+Finished: testDrawHeart3(PatternDrawerTest)
+---------------------------------------------------
+Started: testDrawRectangle1(PatternDrawerTest)
+Finished: testDrawRectangle1(PatternDrawerTest)
+---------------------------------------------------
+Started: testDrawRectangle2(PatternDrawerTest)
+Finished: testDrawRectangle2(PatternDrawerTest)
+---------------------------------------------------
+Started: testDrawRectangle3(PatternDrawerTest)
+Finished: testDrawRectangle3(PatternDrawerTest)
+---------------------------------------------------
+Started: testDrawDiamond1(PatternDrawerTest)
+Finished: testDrawDiamond1(PatternDrawerTest)
+---------------------------------------------------
+Started: testDrawDiamond2(PatternDrawerTest)
+Finished: testDrawDiamond2(PatternDrawerTest)
+---------------------------------------------------
+Started: testDrawDiamond3(PatternDrawerTest)
+Finished: testDrawDiamond3(PatternDrawerTest)
+---------------------------------------------------
+Started: testDrawSquare1(PatternDrawerTest)
+Finished: testDrawSquare1(PatternDrawerTest)
+---------------------------------------------------
+Started: testDrawSquare2(PatternDrawerTest)
+Finished: testDrawSquare2(PatternDrawerTest)
+---------------------------------------------------
+Started: testDrawSquare3(PatternDrawerTest)
+Finished: testDrawSquare3(PatternDrawerTest)
+---------------------------------------------------
+Started: testDrawTriangle1(PatternDrawerTest)
+Finished: testDrawTriangle1(PatternDrawerTest)
+---------------------------------------------------
+Started: testDrawTriangle2(PatternDrawerTest)
+Finished: testDrawTriangle2(PatternDrawerTest)
+---------------------------------------------------
+Started: testDrawTriangle3(PatternDrawerTest)
+Finished: testDrawTriangle3(PatternDrawerTest)
+---------------------------------------------------
+Started: testGenerateGeometricSequence1(SequenceGeneratorTest)
+Finished: testGenerateGeometricSequence1(SequenceGeneratorTest)
+---------------------------------------------------
+Started: testGenerateGeometricSequence2(SequenceGeneratorTest)
+Finished: testGenerateGeometricSequence2(SequenceGeneratorTest)
+---------------------------------------------------
+Started: testGenerateGeometricSequence3(SequenceGeneratorTest)
+Finished: testGenerateGeometricSequence3(SequenceGeneratorTest)
+---------------------------------------------------
+Started: testGenerateEvenNumbers1(SequenceGeneratorTest)
+Finished: testGenerateEvenNumbers1(SequenceGeneratorTest)
+---------------------------------------------------
+Started: testGenerateEvenNumbers2(SequenceGeneratorTest)
+Finished: testGenerateEvenNumbers2(SequenceGeneratorTest)
+---------------------------------------------------
+Started: testGenerateEvenNumbers3(SequenceGeneratorTest)
+Finished: testGenerateEvenNumbers3(SequenceGeneratorTest)
+---------------------------------------------------
+Started: testGeneratePrimeNumbers1(SequenceGeneratorTest)
+Finished: testGeneratePrimeNumbers1(SequenceGeneratorTest)
+---------------------------------------------------
+Started: testGeneratePrimeNumbers2(SequenceGeneratorTest)
+Finished: testGeneratePrimeNumbers2(SequenceGeneratorTest)
+---------------------------------------------------
+Started: testGeneratePrimeNumbers3(SequenceGeneratorTest)
+Finished: testGeneratePrimeNumbers3(SequenceGeneratorTest)
+---------------------------------------------------
+Started: testGenerateFibonacciNumbers1(SequenceGeneratorTest)
+Finished: testGenerateFibonacciNumbers1(SequenceGeneratorTest)
+---------------------------------------------------
+Started: testGenerateFibonacciNumbers2(SequenceGeneratorTest)
+Finished: testGenerateFibonacciNumbers2(SequenceGeneratorTest)
+---------------------------------------------------
+Started: testGenerateFibonacciNumbers3(SequenceGeneratorTest)
+Finished: testGenerateFibonacciNumbers3(SequenceGeneratorTest)
+---------------------------------------------------
+Started: testGenerateArithmeticSequence1(SequenceGeneratorTest)
+Finished: testGenerateArithmeticSequence1(SequenceGeneratorTest)
+---------------------------------------------------
+Started: testGenerateArithmeticSequence2(SequenceGeneratorTest)
+Finished: testGenerateArithmeticSequence2(SequenceGeneratorTest)
+---------------------------------------------------
+Started: testGenerateArithmeticSequence3(SequenceGeneratorTest)
+Finished: testGenerateArithmeticSequence3(SequenceGeneratorTest)
+---------------------------------------------------
+Started: testCheckBalance1(BankAccountTest)
+Finished: testCheckBalance1(BankAccountTest)
+---------------------------------------------------
+Started: testCheckBalance2(BankAccountTest)
+Finished: testCheckBalance2(BankAccountTest)
+---------------------------------------------------
+Started: testCheckBalance3(BankAccountTest)
+Finished: testCheckBalance3(BankAccountTest)
+---------------------------------------------------
+Started: testSetAndGetInterestRate1(BankAccountTest)
+Finished: testSetAndGetInterestRate1(BankAccountTest)
+---------------------------------------------------
+Started: testSetAndGetInterestRate2(BankAccountTest)
+Finished: testSetAndGetInterestRate2(BankAccountTest)
+---------------------------------------------------
+Started: testSetAndGetInterestRate3(BankAccountTest)
+Finished: testSetAndGetInterestRate3(BankAccountTest)
+---------------------------------------------------
+Started: testAddInterest1(BankAccountTest)
+Finished: testAddInterest1(BankAccountTest)
+---------------------------------------------------
+Started: testAddInterest2(BankAccountTest)
+Finished: testAddInterest2(BankAccountTest)
+---------------------------------------------------
+Started: testAddInterest3(BankAccountTest)
+Finished: testAddInterest3(BankAccountTest)
+---------------------------------------------------
+Started: testWithdraw1(BankAccountTest)
+Finished: testWithdraw1(BankAccountTest)
+---------------------------------------------------
+Started: testWithdraw2(BankAccountTest)
+Finished: testWithdraw2(BankAccountTest)
+---------------------------------------------------
+Started: testWithdraw3(BankAccountTest)
+Finished: testWithdraw3(BankAccountTest)
+---------------------------------------------------
+Started: testDeposit1(BankAccountTest)
+Finished: testDeposit1(BankAccountTest)
+---------------------------------------------------
+Started: testDeposit2(BankAccountTest)
+Finished: testDeposit2(BankAccountTest)
+---------------------------------------------------
+Started: testDeposit3(BankAccountTest)
+Finished: testDeposit3(BankAccountTest)
+---------------------------------------------------
+
+================Test run finished======================
+
 Number of tests dealing with exceptions: 5
